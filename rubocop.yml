@@ -61,7 +61,7 @@ Style/ClassAndModuleChildren:
 Layout/LineLength:
   AutoCorrect: false
   Max: 120
-  IgnoredPatterns: ['\A\s*#']
+  AllowedPatterns: ['\A\s*#']
   Exclude:
     - 'spec/**/*'
 
