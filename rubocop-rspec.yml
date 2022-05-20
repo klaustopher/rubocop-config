@@ -1,0 +1,113 @@
+# Add the following to your .rubocop.yml file to use this
+#
+# require:
+#   - rubocop-rspec
+# inherit_from:
+#   - https://raw.github.com/klaustopher/rubocop-config/rubocop-rspec.yml
+
+RSpec/AnyInstance:
+  Enabled: false
+
+RSpec/Be:
+  Enabled: true
+
+RSpec/BeEql:
+  Enabled: false
+
+RSpec/BeforeAfterAll:
+  Enabled: true
+
+RSpec/Capybara/VisibilityMatcher:
+  Enabled: true
+
+RSpec/ContextMethod:
+  Enabled: true
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/DescribeClass:
+  Enabled: true
+
+RSpec/DescribedClass:
+  Enabled: true
+
+RSpec/EmptyHook:
+  Enabled: true
+
+RSpec/EmptyLineAfterExampleGroup:
+  Enabled: true
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/ExampleWording:
+  Enabled: true
+
+RSpec/ExpectChange:
+  Enabled: true
+
+RSpec/InstanceVariable:
+  Enabled: true
+
+RSpec/MessageSpies:
+  Enabled: true
+  EnforcedStyle: receive
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/ReceiveCounts:
+  Enabled: true
+
+RSpec/RepeatedExample:
+  Enabled: true
+
+RSpec/RepeatedDescription:
+  Enabled: true
+
+RSpec/StubbedMock:
+  Enabled: false
+
+RSpec/VariableName:
+  EnforcedStyle: snake_case
+
+RSpec/VoidExpect:
+  Enabled: true
+
+RSpec/IdenticalEqualityAssertion: # (new in 2.4)
+  Enabled: true
+
+RSpec/Rails/AvoidSetupHook: # (new in 2.4)
+  Enabled: true
+
+RSpec/ExcessiveDocstringSpacing: # new in 2.5
+  Enabled: true
+
+RSpec/SubjectDeclaration: # new in 2.5
+  Enabled: true
+
+RSpec/FactoryBot/SyntaxMethods: # new in 2.7
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 10
+
+
+Style/NestedFileDirname: # new in 1.26
+  Enabled: true
+
+RSpec/BeEq: # new in 2.9.0
+  Enabled: true
+
+RSpec/BeNil: # new in 2.9.0
+  Enabled: true
+
+RSpec/LetSetup:
+  Enabled: false
