@@ -3,7 +3,7 @@
 # require:
 #   - rubocop-rspec
 # inherit_from:
-#   - https://raw.github.com/klaustopher/rubocop-config/rubocop-rspec.yml
+#   - https://raw.githubusercontent.com/klaustopher/rubocop-config/main/rubocop-rspec.yml
 
 RSpec/AnyInstance:
   Enabled: false
