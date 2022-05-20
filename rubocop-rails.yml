@@ -3,7 +3,7 @@
 # require:
 #   - rubocop-rails
 # inherit_from:
-#   - https://raw.github.com/klaustopher/rubocop-config/rubocop-rails.yml
+#   - https://raw.githubusercontent.com/klaustopher/rubocop-config/main/rubocop-rails.yml
 
 Rails/ActiveRecordCallbacksOrder: # (new in 2.7)
   Enabled: true
