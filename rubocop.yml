@@ -393,10 +393,7 @@ Layout/SpaceBeforeBrackets: # (new in 1.7)
 Lint/AmbiguousAssignment: # (new in 1.7)
   Enabled: true
 Style/HashExcept: # (new in 1.7)
-  # Ruby 3.0.0 adds Hash#except, all ActiveSupport methods like Hash#reject, etc can be replaced with this native
-  # function, once we switch to Ruby 3.0.0. We can enable this cop when we upgrade.
-  # See: https://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Style/HashExcept
-  Enabled: false
+  Enabled: true
 
 
 Lint/DeprecatedConstants: # (new in 1.8)
@@ -436,7 +433,7 @@ Layout/LineEndStringConcatenationIndentation: # (new in 1.18)
   Enabled: true
 
 Naming/InclusiveLanguage: # (new in 1.18)
-  Enabled: false
+  Enabled: true
   Severity: info
 
 Lint/AmbiguousRange: # (new in 1.19)
@@ -462,15 +459,19 @@ Style/MapToHash: # new in 1.24
 
 Lint/RefinementImportMethods: # new in 1.27
   Enabled: true
+
+Style/RedundantInitialize: # new in 1.27
+  Enabled: true
+
 Security/CompoundHash: # new in 1.28
   Enabled: true
-Style/EnvHome: # new in 1.29
-  Enabled: true
+
 Style/FetchEnvVar: # new in 1.28
   Enabled: true
 Style/ObjectThen: # new in 1.28
   Enabled: true
-Style/RedundantInitialize: # new in 1.27
+
+Style/EnvHome: # new in 1.29
   Enabled: true
 
 Gemspec/DeprecatedAttributeAssignment: # new in 1.30
