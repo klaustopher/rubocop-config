@@ -124,3 +124,15 @@ Rails/MigrationClassName: # new in 2.14
   Enabled: true
 Rails/TransactionExitStatement: # new in 2.14
   Enabled: true
+
+Rails/DotSeparatedKeys: # new in 2.15
+  Enabled: true
+
+Rails/RootPublicPath: # new in 2.15
+  Enabled: true
+
+Rails/StripHeredoc: # new in 2.15
+  Enabled: true
+
+Rails/ToFormattedS: # new in 2.15
+  Enabled: true
