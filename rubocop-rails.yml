@@ -136,3 +136,24 @@ Rails/StripHeredoc: # new in 2.15
 
 Rails/ToFormattedS: # new in 2.15
   Enabled: true
+
+Rails/ActionControllerFlashBeforeRender: # new in 2.16
+  Enabled: true
+
+Rails/ActiveSupportOnLoad: # new in 2.16
+  Enabled: true
+
+Rails/FreezeTime: # new in 2.16
+  Enabled: true
+
+Rails/RootPathnameMethods: # new in 2.16
+  Enabled: true
+
+Rails/ToSWithArgument: # new in 2.16
+  Enabled: true
+
+Rails/TopLevelHashWithIndifferentAccess: # new in 2.16
+  Enabled: true
+
+Rails/WhereMissing: # new in 2.16
+  Enabled: true
