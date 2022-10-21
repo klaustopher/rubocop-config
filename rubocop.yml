@@ -1,10 +1,17 @@
-# Add the following to your .rubocop.yml file to use this
-#
-# inherit_from:
-#   - https://raw.githubusercontent.com/klaustopher/rubocop-config/main/rubocop.yml
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
+
+inherit_from:
+  - rubocop-rails.yml
+  - rubocop-rspec.yml
+  - rubocop-performance.yml
 
 AllCops:
   TargetRubyVersion: 3.0
+  UseCache: true
+  CacheRootDirectory: tmp/rubocop
   Exclude:
     - 'bin/**/*'
     - 'config/**/*'
