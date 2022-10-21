@@ -498,3 +498,12 @@ Style/EmptyHeredoc: # new in 1.32
 
 Style/MagicCommentFormat: # new in 1.35
   Enabled: true
+
+Lint/DuplicateMagicComment: # new in 1.37
+  Enabled: true
+
+Style/OperatorMethodCall: # new in 1.37
+  Enabled: true
+
+Style/RedundantStringEscape: # new in 1.37
+  Enabled: true
