@@ -5,6 +5,9 @@
 # inherit_from:
 #   - https://raw.githubusercontent.com/klaustopher/rubocop-config/main/rubocop-rspec.yml
 
+RSpec/EmptyExampleGroup:
+  Enabled: false
+
 RSpec/AnyInstance:
   Enabled: false
 
