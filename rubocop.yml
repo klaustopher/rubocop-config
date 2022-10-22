@@ -63,7 +63,8 @@ Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
 Style/ClassAndModuleChildren:
-  Enabled: false
+  Enabled: true
+  EnforcedStyle: nested
 
 Layout/LineLength:
   AutoCorrect: false
