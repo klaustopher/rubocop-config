@@ -134,3 +134,18 @@ RSpec/NoExpectationExample: # new in 2.13
 
 RSpec/Capybara/SpecificFinders: # new in 2.13
   Enabled: true
+
+RSpec/SortMetadata: # new in 2.14
+  Enabled: true
+
+RSpec/Capybara/NegationMatcher: # new in 2.14
+  Enabled: true
+
+RSpec/Capybara/SpecificActions: # new in 2.14
+  Enabled: true
+
+RSpec/FactoryBot/ConsistentParenthesesStyle: # new in 2.14
+  Enabled: true
+
+RSpec/Rails/InferredSpecType: # new in 2.14
+  Enabled: true
