@@ -1,0 +1,29 @@
+name: bump-version
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1
+        bundler-cache: true
+
+    - name: Bump version
+      run: bundle exec rake bump_minor_version
+
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Bump version
+        ile_pattern: 'lib/rubocop/klaustopher/version.rb'
