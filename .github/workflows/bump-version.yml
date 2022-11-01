@@ -8,6 +8,8 @@ on:
 jobs:
   bump-version:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_DEPLOYMENT: 0
 
     steps:
     - uses: actions/checkout@v2
@@ -18,7 +20,9 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.1
-        bundler-cache: true
+
+    - name: Install Bundle
+      run: bundle install
 
     - name: Bump version
       run: bundle exec rake bump_minor_version
