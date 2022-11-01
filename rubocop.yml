@@ -515,3 +515,6 @@ Style/OperatorMethodCall: # new in 1.37
 
 Style/RedundantStringEscape: # new in 1.37
   Enabled: true
+
+Style/RedundantEach: # new in 1.38
+  Enabled: true
