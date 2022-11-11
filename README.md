@@ -3,8 +3,8 @@
 Add the following to your Gemfile:
 
 ```ruby
-group :development, :test do
-  gem 'rubocop-klaustopher', github: 'klaustopher/rubocop-config', require: false
+group :development do
+  gem 'rubocop-klaustopher', git: 'https://github.com/klaustopher/rubocop-config'
 end
 ```
 
