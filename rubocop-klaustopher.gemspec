@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.metadata['source_code_uri'] = spec.homepage
   spec.metadata['changelog_uri'] = 'https://github.com/klaustopher/rubocop-config/blob/main/CHANGELOG.md'
   spec.metadata['rubygems_mfa_required'] = 'true'
-  
+
   spec.files = %w[
     rubocop.yml
     rubocop-rails.yml
@@ -28,5 +28,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rubocop-performance', '= 1.15.0'
   spec.add_dependency 'rubocop-rails', '= 2.17.2'
   spec.add_dependency 'rubocop-rspec', '= 2.15.0'
-
 end
