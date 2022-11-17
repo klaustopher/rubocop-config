@@ -1,0 +1,496 @@
+Style/Documentation:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Security/IoMethods: # new in 1.22
+  Enabled: true
+
+########## NAMING RELATED
+# Renaming `has_something?` to `something?` obfuscates whether it is a "is-a" or
+# a "has-a" relationship.
+Naming/PredicateName:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Layout/AccessModifierIndentation:
+  Enabled: true
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/DotPosition:
+  EnforcedStyle: leading
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Style/ClassAndModuleChildren:
+  Enabled: true
+  EnforcedStyle: nested
+
+Layout/LineLength:
+  AutoCorrect: false
+  Max: 120
+  AllowedPatterns: ['\A\s*#']
+  Exclude:
+    - 'spec/**/*'
+
+Layout/BeginEndAlignment:
+  Enabled: true
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+########## STYLE RELATED
+Style/EmptyElse:
+  EnforcedStyle: empty
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Style/ZeroLengthPredicate:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/RedundantCondition:
+  Enabled: false
+
+Style/TrailingUnderscoreVariable:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/HashConversion: # (new in 1.10)
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/TernaryParentheses:
+  EnforcedStyle: require_parentheses_when_complex
+
+Style/FloatDivision:
+  Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: false
+
+Style/NumberedParameters: # new in 1.22
+  Enabled: true
+
+Style/NumberedParametersLimit: # new in 1.22
+  Enabled: true
+
+Style/OpenStructUse: # new in 1.23
+  Enabled: true
+
+Style/SelectByRegexp: # new in 1.22
+  Enabled: true
+
+Lint/EmptyWhen:
+  Enabled: false
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/RequireRelativeSelfPath: # new in 1.22
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: true
+
+Lint/ConstantDefinitionInBlock:
+  Enabled: true
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/DuplicateElsifCondition:
+  Enabled: false
+
+Lint/DuplicateRequire:
+  Enabled: false
+
+Lint/DuplicateRescueException:
+  Enabled: false
+
+Lint/EmptyConditionalBody:
+  Enabled: false
+
+Lint/EmptyFile:
+  Enabled: false
+
+Lint/FloatComparison:
+  Enabled: false
+
+Lint/HashCompareByIdentity:
+  Enabled: false
+
+Lint/IdentityComparison:
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: false
+
+Lint/NumberedParameterAssignment: # (new in 1.9)
+  Enabled: true
+
+Lint/OrAssignmentToConstant: # (new in 1.9)
+  Enabled: true
+
+Lint/OutOfRangeRegexpRef:
+  Enabled: false
+
+Lint/RedundantSafeNavigation:
+  Enabled: false
+
+Lint/SelfAssignment:
+  Enabled: false
+
+Lint/SymbolConversion: # (new in 1.9)
+  Enabled: true
+
+Lint/TopLevelReturnWithArgument:
+  Enabled: false
+
+Lint/TrailingCommaInAttributeDeclaration:
+  Enabled: false
+
+Lint/TripleQuotes: # (new in 1.9)
+  Enabled: true
+
+Lint/UnreachableLoop:
+  Enabled: false
+
+Lint/UselessMethodDefinition:
+  Enabled: false
+
+Lint/UselessRuby2Keywords: # new in 1.23
+  Enabled: true
+
+Lint/UselessTimes:
+  Enabled: false
+
+# Disabled as a suggestion from https://github.com/rubocop-hq/rubocop/issues/4222
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*.rb"
+
+Style/AccessorGrouping:
+  Enabled: false
+
+Style/BisectedAttrAccessor:
+  Enabled: false
+
+Style/CaseLikeIf:
+  Enabled: false
+
+Style/ClassEqualityComparison:
+  Enabled: false
+
+Style/CombinableLoops:
+  Enabled: false
+
+Style/ExplicitBlockArgument:
+  Enabled: false
+
+Style/ExponentialNotation:
+  Enabled: false
+
+Style/GlobalStdStream:
+  Enabled: false
+
+Style/HashAsLastArrayItem:
+  Enabled: false
+
+Style/HashLikeCase:
+  Enabled: false
+
+Style/IfWithBooleanLiteralBranches: # (new in 1.9)
+  Enabled: true
+
+Style/KeywordParametersOrder:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
+  Enabled: false
+
+Style/RedundantAssignment:
+  Enabled: false
+
+Style/RedundantFetchBlock:
+  Enabled: false
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+
+Style/RedundantRegexpEscape:
+  Enabled: false
+
+Style/RedundantSelfAssignment:
+  Enabled: false
+
+Style/SingleArgumentDig:
+  Enabled: false
+
+Style/SlicingWithRange:
+  Enabled: false
+
+Style/SoleNestedConditional:
+  Enabled: false
+
+Style/StringConcatenation:
+  Enabled: false
+
+########## METRICS RELATED
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: true
+
+Style/FormatStringToken:
+  Enabled: false
+
+# Added when merging 1.4
+Lint/DuplicateBranch: # (new in 1.3)
+  Enabled: true
+Lint/DuplicateRegexpCharacterClassElement: # (new in 1.1)
+  Enabled: true
+Lint/EmptyBlock: # (new in 1.1)
+  Enabled: true
+  Exclude:
+    - "**/*_spec.rb"
+Lint/EmptyClass: # (new in 1.3)
+  Enabled: true
+Lint/NoReturnInBeginEndBlocks: # (new in 1.2)
+  Enabled: true
+Lint/ToEnumArguments: # (new in 1.1)
+  Enabled: true
+Lint/UnmodifiedReduceAccumulator: # (new in 1.1)
+  Enabled: true
+Style/ArgumentsForwarding: # (new in 1.1)
+  Enabled: true
+Style/CollectionCompact: # (new in 1.2)
+  Enabled: true
+Style/DocumentDynamicEvalDefinition: # (new in 1.1)
+  Enabled: true
+Style/NegatedIfElseCondition: # (new in 1.2)
+  Enabled: true
+Style/NilLambda: # (new in 1.3)
+  Enabled: true
+Style/RedundantArgument: # (new in 1.4)
+  Enabled: false
+Style/SwapValues: # (new in 1.1)
+  Enabled: true
+
+Lint/UnexpectedBlockArity: # (new in 1.5)
+  Enabled: true
+
+Layout/SpaceBeforeBrackets: # (new in 1.7)
+  # We are using a lot of method calls without parentheses and use an array as an argument.
+  # Those calls would be broken
+  Enabled: false
+Lint/AmbiguousAssignment: # (new in 1.7)
+  Enabled: true
+Style/HashExcept: # (new in 1.7)
+  Enabled: true
+
+
+Lint/DeprecatedConstants: # (new in 1.8)
+  Enabled: true
+Lint/LambdaWithoutLiteralBlock: # (new in 1.8)
+  Enabled: true
+Lint/RedundantDirGlobSort: # (new in 1.8)
+  Enabled: true
+Style/EndlessMethod: # (new in 1.8)
+  Enabled: true
+
+Naming/VariableNumber:
+  Enabled: false
+
+Gemspec/RequireMFA: # new in 1.23
+  Enabled: true
+
+Style/StringChars: # (new in 1.12)
+  Enabled: true
+
+Lint/EmptyInPattern: # (new in 1.16)
+  Enabled: true
+
+Style/InPatternThen: # (new in 1.16)
+  Enabled: true
+
+Style/MultilineInPatternThen: # (new in 1.16)
+  Enabled: true
+
+Style/QuotedSymbols: # (new in 1.16)
+  Enabled: true
+
+Layout/LineEndStringConcatenationIndentation: # (new in 1.18)
+  Enabled: true
+
+Naming/InclusiveLanguage: # (new in 1.18)
+  Enabled: true
+  Severity: info
+
+Lint/AmbiguousRange: # (new in 1.19)
+  Enabled: true
+
+Style/RedundantSelfAssignmentBranch: # (new in 1.19)
+  Enabled: true
+
+Lint/AmbiguousOperatorPrecedence: # new in 1.21
+  Enabled: true
+
+Lint/IncompatibleIoSelectWithFiberScheduler: # new in 1.21
+  Enabled: true
+
+Naming/BlockForwarding: # new in 1.24
+  Enabled: true
+Style/FileRead: # new in 1.24
+  Enabled: true
+Style/FileWrite: # new in 1.24
+  Enabled: true
+Style/MapToHash: # new in 1.24
+  Enabled: true
+
+Lint/RefinementImportMethods: # new in 1.27
+  Enabled: true
+
+Style/RedundantInitialize: # new in 1.27
+  Enabled: true
+
+Security/CompoundHash: # new in 1.28
+  Enabled: true
+
+Style/FetchEnvVar: # new in 1.28
+  Enabled: true
+Style/ObjectThen: # new in 1.28
+  Enabled: true
+
+Style/EnvHome: # new in 1.29
+  Enabled: true
+
+Gemspec/DeprecatedAttributeAssignment: # new in 1.30
+  Enabled: true
+
+Style/MapCompactWithConditionalBlock: # new in 1.30
+  Enabled: true
+
+
+Layout/LineContinuationLeadingSpace: # new in 1.31
+  Enabled: true
+
+Layout/LineContinuationSpacing: # new in 1.31
+  Enabled: true
+
+Lint/ConstantOverwrittenInRescue: # new in 1.31
+  Enabled: true
+
+Lint/NonAtomicFileOperation: # new in 1.31
+  Enabled: true
+
+Lint/RequireRangeParentheses: # new in 1.32
+  Enabled: true
+
+Style/EmptyHeredoc: # new in 1.32
+  Enabled: true
+
+Style/MagicCommentFormat: # new in 1.35
+  Enabled: true
+
+Lint/DuplicateMagicComment: # new in 1.37
+  Enabled: true
+
+Style/OperatorMethodCall: # new in 1.37
+  Enabled: true
+
+Style/RedundantStringEscape: # new in 1.37
+  Enabled: true
+
+Style/RedundantEach: # new in 1.38
+  Enabled: true
