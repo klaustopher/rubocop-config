@@ -27,3 +27,16 @@ jobs:
 
     - name: Run rubocop
       run: bundle exec rubocop
+
+    - name: Get warning messages
+      id: get_warnings
+      run: |
+        echo 'RUBOCOP_WARNINGS<<EOF' >> $GITHUB_ENV
+        bundle exec rubocop --list-target-files 2>> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
+
+    - name: Fail if there are warnings about new cops
+      if: ${{ contains(env.RUBOCOP_WARNINGS, 'The following cops were added to RuboCop, but are not configured') }}
+      run: |
+        echo "::error title=\"New Cops have been added and need to be configured::${{ env.RUBOCOP_WARNINGS }}"
+        exit 1
