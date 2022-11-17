@@ -1,3 +1,4 @@
+# rubocop:disable Rails/SkipsModelValidations, Rails/RakeEnvironment
 require 'bundler/gem_tasks'
 require 'rubocop/rake_task'
 require_relative 'lib/rubocop/klaustopher/version'
@@ -22,3 +23,4 @@ task :bump_minor_version do
 
   puts "Bumped version to #{new_version}"
 end
+# rubocop:enable Rails/SkipsModelValidations, Rails/RakeEnvironment
