@@ -1,10 +1,10 @@
 require:
-  - rubocop-rubocop
   - rubocop-rails
   - rubocop-rspec
   - rubocop-performance
 
 inherit_from:
+  - rubocop-rubocop.yml
   - rubocop-rails.yml
   - rubocop-rspec.yml
   - rubocop-performance.yml
