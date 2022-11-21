@@ -4,7 +4,7 @@ PATH
     rubocop-klaustopher (1.1.2)
       rubocop (= 1.39.0)
       rubocop-performance (= 1.15.0)
-      rubocop-rails (= 2.17.2)
+      rubocop-rails (= 2.17.3)
       rubocop-rspec (= 2.15.0)
 
 GEM
@@ -24,7 +24,7 @@ GEM
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
-    rack (3.0.0)
+    rack (3.0.1)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.6.1)
@@ -44,7 +44,7 @@ GEM
     rubocop-performance (1.15.0)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    rubocop-rails (2.17.2)
+    rubocop-rails (2.17.3)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
