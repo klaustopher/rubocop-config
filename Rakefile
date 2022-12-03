@@ -23,4 +23,9 @@ task :bump_minor_version do
 
   puts "Bumped version to #{new_version}"
 end
+
+desc 'Prints current gem version'
+task :version do
+  puts Rubocop::Klaustopher::VERSION
+end
 # rubocop:enable Rails/SkipsModelValidations, Rails/RakeEnvironment

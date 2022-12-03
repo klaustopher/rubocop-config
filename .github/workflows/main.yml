@@ -29,7 +29,6 @@ jobs:
       run: bundle exec rubocop
 
     - name: Get warning messages
-      id: get_warnings
       run: |
         echo 'RUBOCOP_WARNINGS<<EOF' >> $GITHUB_ENV
         bundle exec rubocop --list-target-files 2>> $GITHUB_ENV
