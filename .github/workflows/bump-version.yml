@@ -39,4 +39,4 @@ jobs:
       with:
         commit_message: "Bump version to ${{ env.NEW_GEM_VERSION }}"
         file_pattern: "lib/rubocop/klaustopher/version.rb Gemfile.lock"
-        tagging_message: "v ${{ env.NEW_GEM_VERSION }}"
+        tagging_message: "v${{ env.NEW_GEM_VERSION }}"
