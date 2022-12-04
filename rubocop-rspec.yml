@@ -1,10 +1,3 @@
-# Add the following to your .rubocop.yml file to use this
-#
-# require:
-#   - rubocop-rspec
-# inherit_from:
-#   - https://raw.githubusercontent.com/klaustopher/rubocop-config/main/rubocop-rspec.yml
-
 RSpec/EmptyExampleGroup:
   Enabled: false
 
@@ -15,7 +8,7 @@ RSpec/Be:
   Enabled: true
 
 RSpec/BeEql:
-  Enabled: false
+  Enabled: true
 
 RSpec/BeforeAfterAll:
   Enabled: true
@@ -57,12 +50,18 @@ RSpec/MessageSpies:
   Enabled: true
   EnforcedStyle: receive
 
+# I'm not a fan of one epxectation per test ... When I am testing that something has multiple attributes
+# assigned in a certain way, I will write multiple expectations and not run my setup 10 times just to have
+# 10 single tests, just to make this happy here.
 RSpec/MultipleExpectations:
   Enabled: false
 
+# Sometimes many let's are needed ...
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
 
+# I want to explicitly see `subject` in my tests to identify the main subject of the test,
+# it is highlighted, whereas `user` (and others) just look like any other variable
 RSpec/NamedSubject:
   Enabled: false
 
@@ -96,6 +95,7 @@ RSpec/ExcessiveDocstringSpacing: # new in 2.5
 RSpec/SubjectDeclaration: # new in 2.5
   Enabled: true
 
+# Want to explicitly use FactoryBot.create(...) instead of create(...) in my code
 RSpec/FactoryBot/SyntaxMethods: # new in 2.7
   Enabled: false
 
@@ -112,7 +112,7 @@ RSpec/BeNil: # new in 2.9.0
   Enabled: true
 
 RSpec/LetSetup:
-  Enabled: false
+  Enabled: true
 
 RSpec/ChangeByZero: # new in 2.11.0
   Enabled: true

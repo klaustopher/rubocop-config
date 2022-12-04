@@ -1,48 +1,60 @@
-# Add the following to your .rubocop.yml file to use this
-#
-# require:
-#   - rubocop-rails
-# inherit_from:
-#   - https://raw.githubusercontent.com/klaustopher/rubocop-config/main/rubocop-rails.yml
-
 Rails/ActiveRecordCallbacksOrder: # (new in 2.7)
   Enabled: true
+
 Rails/AfterCommitOverride: # (new in 2.8)
   Enabled: true
+
 Rails/ApplicationController:
   Enabled: true
+
 Rails/AttributeDefaultBlockValue: # (new in 2.9)
   Enabled: true
+
 Rails/FindBy:
   Enabled: true
+
 Rails/FindById: # (new in 2.7)
   Enabled: true
+
 Rails/Inquiry: # (new in 2.7)
   Enabled: true
+
 Rails/MailerName: # (new in 2.7)
   Enabled: true
+
 Rails/MatchRoute: # (new in 2.7)
   Enabled: true
+
 Rails/NegateInclude: # (new in 2.7)
   Enabled: true
+
 Rails/Pick:
   Enabled: true
+
 Rails/Pluck: # (new in 2.7)
   Enabled: true
+
 Rails/PluckInWhere: # (new in 2.7)
   Enabled: true
+
 Rails/RenderInline: # (new in 2.7)
   Enabled: true
+
 Rails/RenderPlainText: # (new in 2.7)
   Enabled: true
+
 Rails/ShortI18n: # (new in 2.7)
   Enabled: true
+
 Rails/SquishedSQLHeredocs: # (new in 2.8)
   Enabled: true
+
 Rails/WhereEquals: # (new in 2.9)
   Enabled: true
+
 Rails/WhereExists: # (new in 2.7)
   Enabled: true
+
 Rails/WhereNot: # (new in 2.8)
   Enabled: true
 
@@ -56,15 +68,13 @@ Rails/Delegate:
   EnforceForPrefixed: false
 
 Rails/TimeZone:
-  # for now disable enforcing of the Time.zone.now requirement. Our code currently works as expected
-  Enabled: false
+  Enabled: true
 
 Rails/UnknownEnv:
   Enabled: true
   Environments: development, production, test
 
-# We definitely do not want the join model on purpose. All of our
-# HBTM associations were chosen deliberately.
+# HABTM models have their place, so I am fine to have them. I know when to have a special join model
 Rails/HasAndBelongsToMany:
   Enabled: false
 
@@ -99,29 +109,41 @@ Rails/RedundantTravelBack: # new in 2.12
   Enabled: true
 
 Rails/HasManyOrHasOneDependent: # fixed in 2.12.1
-  Enabled: false # temporarily disabled (should be discussed in next R&D meeting)
+  Enabled: true
+
 Rails/CompactBlank: # new in 2.13
   Enabled: true
+
 Rails/DurationArithmetic: # new in 2.13
   Enabled: true
+
 Rails/RedundantPresenceValidationOnBelongsTo: # new in 2.13
   Enabled: true
+
 Rails/RootJoinChain: # new in 2.13
   Enabled: true
+
 Rails/ActionControllerTestCase: # new in 2.14
   Enabled: true
+
 Rails/DeprecatedActiveModelErrorsMethods: # new in 2.14
   Enabled: true
+
 Rails/DuplicateAssociation: # new in 2.14
   Enabled: true
+
 Rails/DuplicateScope: # new in 2.14
   Enabled: true
+
 Rails/I18nLazyLookup: # new in 2.14
   Enabled: true
+
 Rails/I18nLocaleTexts: # new in 2.14
   Enabled: true
+
 Rails/MigrationClassName: # new in 2.14
   Enabled: true
+
 Rails/TransactionExitStatement: # new in 2.14
   Enabled: true
 

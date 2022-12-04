@@ -1,53 +1,53 @@
-Performance/AncestorsInclude: # new in 1.7
+Performance/AncestorsInclude:
   Enabled: true
 
-Performance/BigDecimalWithNumericArgument: # new in 1.7
+Performance/BigDecimalWithNumericArgument:
   Enabled: true
 
-Performance/BlockGivenWithExplicitBlock: # new in 1.9
+Performance/BlockGivenWithExplicitBlock:
   Enabled: true
 
-Performance/CollectionLiteralInLoop: # new in 1.8
+Performance/CollectionLiteralInLoop:
   Enabled: true
 
-Performance/ConcurrentMonotonicTime: # new in 1.12
+Performance/ConcurrentMonotonicTime:
   Enabled: true
 
-Performance/ConstantRegexp: # new in 1.9
+Performance/ConstantRegexp:
   Enabled: true
 
-Performance/MapCompact: # new in 1.11
+Performance/MapCompact:
   Enabled: true
 
-Performance/MethodObjectAsBlock: # new in 1.9
+Performance/MethodObjectAsBlock:
   Enabled: true
 
-Performance/RedundantEqualityComparisonBlock: # new in 1.10
+Performance/RedundantEqualityComparisonBlock:
   Enabled: true
 
-Performance/RedundantSortBlock: # new in 1.7
+Performance/RedundantSortBlock:
   Enabled: true
 
-Performance/RedundantSplitRegexpArgument: # new in 1.10
+Performance/RedundantSplitRegexpArgument:
   Enabled: true
 
-Performance/RedundantStringChars: # new in 1.7
+Performance/RedundantStringChars:
   Enabled: true
 
-Performance/ReverseFirst: # new in 1.7
+Performance/ReverseFirst:
   Enabled: true
 
-Performance/SortReverse: # new in 1.7
+Performance/SortReverse:
   Enabled: true
 
-Performance/Squeeze: # new in 1.7
+Performance/Squeeze:
   Enabled: true
 
-Performance/StringIdentifierArgument: # new in 1.13
+Performance/StringIdentifierArgument:
   Enabled: true
 
-Performance/StringInclude: # new in 1.7
+Performance/StringInclude:
   Enabled: true
 
-Performance/Sum: # new in 1.8
+Performance/Sum:
   Enabled: true
