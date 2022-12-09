@@ -494,3 +494,9 @@ Style/RedundantStringEscape: # new in 1.37
 
 Style/RedundantEach: # new in 1.38
   Enabled: true
+
+Style/RedundantConstantBase: # new in 1.40
+  Enabled: true
+
+Style/ArrayIntersect: # new in 1.40
+  Enabled: true
