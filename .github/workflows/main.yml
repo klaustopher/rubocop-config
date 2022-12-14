@@ -34,6 +34,16 @@ jobs:
         bundle exec rubocop --list-target-files 2>> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
 
+    - uses: mshick/add-pr-comment@v2
+      if: ${{ contains(env.RUBOCOP_WARNINGS, 'The following cops were added to RuboCop, but are not configured') }}
+      with:
+        message: |
+          We have some new Cops. Please make a decision if they need to be added.
+
+          ```
+          ${{ env.RUBOCOP_WARNINGS }}
+          ```
+
     - name: Fail if there are warnings about new cops
       if: ${{ contains(env.RUBOCOP_WARNINGS, 'The following cops were added to RuboCop, but are not configured') }}
       run: |
