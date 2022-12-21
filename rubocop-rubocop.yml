@@ -47,6 +47,17 @@ Layout/LineLength:
   Max: 120
   AllowedPatterns: ['\A\s*#']
 
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: true
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  Enabled: true
+  EnforcedStyle: new_line
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
+
 Layout/BeginEndAlignment:
   Enabled: true
 
