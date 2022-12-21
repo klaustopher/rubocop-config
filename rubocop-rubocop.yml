@@ -43,11 +43,9 @@ Style/ClassAndModuleChildren:
   EnforcedStyle: nested
 
 Layout/LineLength:
-  AutoCorrect: false
+  AutoCorrect: true
   Max: 120
   AllowedPatterns: ['\A\s*#']
-  Exclude:
-    - 'spec/**/*'
 
 Layout/BeginEndAlignment:
   Enabled: true
@@ -503,6 +501,6 @@ Style/ArrayIntersect: # new in 1.40
 
 Style/ConcatArrayLiterals: # new in 1.41
   Enabled: true
-  
+
 Style/RedundantDoubleSplatHashBraces: # new in 1.41
   Enabled: true
