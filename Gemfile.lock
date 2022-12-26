@@ -4,7 +4,7 @@ PATH
     rubocop-klaustopher (1.2.4)
       rubocop (= 1.41.1)
       rubocop-performance (= 1.15.1)
-      rubocop-rails (= 2.17.3)
+      rubocop-rails (= 2.17.4)
       rubocop-rspec (= 2.16.0)
 
 GEM
@@ -44,7 +44,7 @@ GEM
     rubocop-performance (1.15.1)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    rubocop-rails (2.17.3)
+    rubocop-rails (2.17.4)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
