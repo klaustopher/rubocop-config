@@ -308,7 +308,6 @@ Style/RedundantFileExtensionInRequire:
 
 Style/RedundantRegexpCharacterClass:
   Enabled: false
-
 Style/RedundantRegexpEscape:
   Enabled: false
 
@@ -326,6 +325,9 @@ Style/SoleNestedConditional:
 
 Style/StringConcatenation:
   Enabled: false
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
 
 ########## METRICS RELATED
 Metrics/AbcSize:
