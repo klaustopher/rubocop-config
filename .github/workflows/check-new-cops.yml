@@ -1,0 +1,39 @@
+name: Ruby
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.2
+
+    - name: Get warning messages
+      run: |
+        echo 'RUBOCOP_WARNINGS<<EOF' >> $GITHUB_ENV
+        bundle exec rubocop --list-target-files 2>> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
+
+    - uses: mshick/add-pr-comment@v2
+      if: ${{ contains(env.RUBOCOP_WARNINGS, 'The following cops were added to RuboCop, but are not configured') }}
+      with:
+        message: |
+          We have some new Cops. Please make a decision if they need to be added.
+
+          ```
+          ${{ env.RUBOCOP_WARNINGS }}
+          ```
+
+    - name: Fail if there are warnings about new cops
+      if: ${{ contains(env.RUBOCOP_WARNINGS, 'The following cops were added to RuboCop, but are not configured') }}
+      run: |
+        echo "::error title=\"New Cops have been added and need to be configured::${{ env.RUBOCOP_WARNINGS }}"
+        exit 1
+
