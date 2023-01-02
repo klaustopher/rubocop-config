@@ -4,10 +4,7 @@ require:
   - rubocop-performance
 
 inherit_from:
-  - rubocop-rubocop.yml
-  - rubocop-rails.yml
-  - rubocop-rspec.yml
-  - rubocop-performance.yml
+  - rubocop-*.yml
 
 AllCops:
   TargetRubyVersion: 3.0

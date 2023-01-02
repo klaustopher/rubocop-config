@@ -1,0 +1,77 @@
+
+Layout/AccessModifierIndentation:
+  Enabled: true
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/DotPosition:
+  EnforcedStyle: leading
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: true
+
+# Styling for Hashes
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Layout/MultilineHashBraceLayout:
+  Enabled: true
+  EnforcedStyle: new_line
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+
+Layout/LineLength:
+  AutoCorrect: true
+  Max: 120
+  AllowedPatterns: ['\A\s*#']
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  Enabled: true
+  EnforcedStyle: new_line
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
+Layout/BeginEndAlignment:
+  Enabled: true
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Layout/SpaceBeforeBrackets: # (new in 1.7)
+  # We are using a lot of method calls without parentheses and use an array as an argument.
+  # Those calls would be broken
+  Enabled: false
+
+
+Layout/LineEndStringConcatenationIndentation: # (new in 1.18)
+  Enabled: true
+
+
+Layout/LineContinuationLeadingSpace: # new in 1.31
+  Enabled: true
+
+Layout/LineContinuationSpacing: # new in 1.31
+  Enabled: true
+
+
