@@ -5,48 +5,7 @@ Bundler/OrderedGems:
 Security/IoMethods: # new in 1.22
   Enabled: true
 
-########## NAMING RELATED
-# Renaming `has_something?` to `something?` obfuscates whether it is a "is-a" or
-# a "has-a" relationship.
-Naming/PredicateName:
-  Enabled: false
-
-Naming/MethodParameterName:
-  Enabled: false
-
-########## METRICS RELATED
-Metrics/AbcSize:
-  Enabled: false
-
-Metrics/MethodLength:
-  Enabled: false
-
-Metrics/ModuleLength:
-  Enabled: false
-
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/BlockLength:
-  Enabled: false
-
-Metrics/CyclomaticComplexity:
-  Enabled: false
-
-Metrics/PerceivedComplexity:
-  Enabled: false
-
-Naming/VariableNumber:
-  Enabled: false
-
 Gemspec/RequireMFA: # new in 1.23
-  Enabled: true
-
-Naming/InclusiveLanguage: # (new in 1.18)
-  Enabled: true
-  Severity: info
-
-Naming/BlockForwarding: # new in 1.24
   Enabled: true
 
 Security/CompoundHash: # new in 1.28

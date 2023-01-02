@@ -5,7 +5,15 @@ require:
   - rubocop-performance
 
 inherit_from:
-  - ./rubocop-*.yml
+  - rubocop-layout.yml
+  - rubocop-lint.yml
+  - rubocop-metrics.yml
+  - rubocop-naming.yml
+  - rubocop-other.yml
+  - rubocop-performance.yml
+  - rubocop-rails.yml
+  - rubocop-rspec.yml
+  - rubocop-style.yml
 
 AllCops:
   TargetRubyVersion: 3.0
