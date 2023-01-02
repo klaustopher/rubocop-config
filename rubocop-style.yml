@@ -1,6 +1,6 @@
+---
 Style/Documentation:
   Enabled: false
-
 
 Style/ClassAndModuleChildren:
   Enabled: true
@@ -187,7 +187,6 @@ Style/HashExcept: # (new in 1.7)
 Style/EndlessMethod: # (new in 1.8)
   Enabled: true
 
-
 Style/StringChars: # (new in 1.12)
   Enabled: true
 
@@ -200,10 +199,8 @@ Style/MultilineInPatternThen: # (new in 1.16)
 Style/QuotedSymbols: # (new in 1.16)
   Enabled: true
 
-
 Style/RedundantSelfAssignmentBranch: # (new in 1.19)
   Enabled: true
-
 
 Style/FileRead: # new in 1.24
   Enabled: true
@@ -231,7 +228,6 @@ Style/EmptyHeredoc: # new in 1.32
 Style/MagicCommentFormat: # new in 1.35
   Enabled: true
 
-
 Style/OperatorMethodCall: # new in 1.37
   Enabled: true
 
@@ -240,7 +236,6 @@ Style/RedundantStringEscape: # new in 1.37
 
 Style/RedundantEach: # new in 1.38
   Enabled: true
-
 
 Style/RedundantConstantBase: # new in 1.40
   Enabled: true

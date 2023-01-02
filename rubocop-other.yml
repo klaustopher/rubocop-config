@@ -1,3 +1,4 @@
+---
 Bundler/OrderedGems:
   Enabled: false
 
@@ -35,31 +36,21 @@ Metrics/CyclomaticComplexity:
 Metrics/PerceivedComplexity:
   Enabled: false
 
-
-
-
 Naming/VariableNumber:
   Enabled: false
 
 Gemspec/RequireMFA: # new in 1.23
   Enabled: true
 
-
-
-
 Naming/InclusiveLanguage: # (new in 1.18)
   Enabled: true
   Severity: info
 
-
 Naming/BlockForwarding: # new in 1.24
   Enabled: true
-
-
 
 Security/CompoundHash: # new in 1.28
   Enabled: true
 
 Gemspec/DeprecatedAttributeAssignment: # new in 1.30
   Enabled: true
-

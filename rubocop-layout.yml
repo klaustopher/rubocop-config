@@ -1,4 +1,4 @@
-
+---
 Layout/AccessModifierIndentation:
   Enabled: true
 
@@ -36,7 +36,6 @@ Layout/FirstHashElementLineBreak:
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
-
 Layout/LineLength:
   AutoCorrect: true
   Max: 120
@@ -63,15 +62,11 @@ Layout/SpaceBeforeBrackets: # (new in 1.7)
   # Those calls would be broken
   Enabled: false
 
-
 Layout/LineEndStringConcatenationIndentation: # (new in 1.18)
   Enabled: true
-
 
 Layout/LineContinuationLeadingSpace: # new in 1.31
   Enabled: true
 
 Layout/LineContinuationSpacing: # new in 1.31
   Enabled: true
-
-

@@ -1,3 +1,4 @@
+---
 RSpec/EmptyExampleGroup:
   Enabled: false
 
@@ -152,9 +153,9 @@ RSpec/Rails/InferredSpecType: # new in 2.14
 
 RSpec/DuplicatedMetadata: # new in 2.16
   Enabled: true
-  
+
 RSpec/PendingWithoutReason: # new in 2.16
   Enabled: true
-  
+
 RSpec/FactoryBot/FactoryNameStyle: # new in 2.16
   Enabled: true

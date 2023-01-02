@@ -1,3 +1,4 @@
+---
 Rails/ActiveRecordCallbacksOrder: # (new in 2.7)
   Enabled: true
 
