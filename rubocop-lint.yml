@@ -147,3 +147,6 @@ Lint/RequireRangeParentheses: # new in 1.32
 
 Lint/DuplicateMagicComment: # new in 1.37
   Enabled: true
+
+Lint/UselessRescue: # new in 1.43
+  Enabled: true
