@@ -1,11 +1,11 @@
-name: Ruby
+name: Check for new Cops
 
 on:
   pull_request:
     types: [opened]
 
 jobs:
-  build:
+  new-cops:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,6 +19,7 @@ jobs:
       run: |
         echo 'RUBOCOP_WARNINGS<<EOF' >> $GITHUB_ENV
         bundle exec rubocop --list-target-files 2>> $GITHUB_ENV
+        echo "\n" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
 
     - uses: mshick/add-pr-comment@v2
