@@ -1,12 +1,15 @@
 name: Check for new Cops
 
 on:
-  pull_request:
-    types: [opened]
+  pull_request_target:
+    paths:
+      - 'Gemfile.lock'
+      - 'rubocop-klaustopher.gemspec'
 
 jobs:
   new-cops:
     runs-on: ubuntu-latest
+    if: ${{ github.actor == 'depfu[bot]' }}
 
     steps:
     - uses: actions/checkout@v3
