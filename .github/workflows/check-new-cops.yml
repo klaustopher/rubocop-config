@@ -23,7 +23,7 @@ jobs:
     - name: Get warning messages
       run: |
         echo 'RUBOCOP_WARNINGS<<EOF' >> $GITHUB_ENV
-        echo "$(bundle exec rubocop --list-target-files 2>&1 1>/dev/null)"
+        echo "$(bundle exec rubocop --list-target-files 2>&1 1>/dev/null)" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
 
     - uses: mshick/add-pr-comment@v2
