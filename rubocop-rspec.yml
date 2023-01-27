@@ -14,7 +14,7 @@ RSpec/BeEql:
 RSpec/BeforeAfterAll:
   Enabled: true
 
-RSpec/Capybara/VisibilityMatcher:
+Capybara/VisibilityMatcher:
   Enabled: true
 
 RSpec/ContextMethod:
@@ -121,7 +121,7 @@ RSpec/ChangeByZero: # new in 2.11.0
 RSpec/VerifiedDoubleReference: # new in 2.10.0
   Enabled: true
 
-RSpec/Capybara/SpecificMatcher: # new in 2.12
+Capybara/SpecificMatcher: # new in 2.12
   Enabled: true
 
 RSpec/Rails/HaveHttpStatus: # new in 2.12
@@ -133,16 +133,16 @@ RSpec/ClassCheck: # new in 2.13
 RSpec/NoExpectationExample: # new in 2.13
   Enabled: true
 
-RSpec/Capybara/SpecificFinders: # new in 2.13
+Capybara/SpecificFinders: # new in 2.13
   Enabled: true
 
 RSpec/SortMetadata: # new in 2.14
   Enabled: true
 
-RSpec/Capybara/NegationMatcher: # new in 2.14
+Capybara/NegationMatcher: # new in 2.14
   Enabled: true
 
-RSpec/Capybara/SpecificActions: # new in 2.14
+Capybara/SpecificActions: # new in 2.14
   Enabled: true
 
 RSpec/FactoryBot/ConsistentParenthesesStyle: # new in 2.14
@@ -160,7 +160,7 @@ RSpec/PendingWithoutReason: # new in 2.16
 RSpec/FactoryBot/FactoryNameStyle: # new in 2.16
   Enabled: true
 
-RSpec/Capybara/MatchStyle: # new in 2.17
+Capybara/MatchStyle: # new in 2.17
   Enabled: true
 
 RSpec/Rails/MinitestAssertions: # new in 2.17

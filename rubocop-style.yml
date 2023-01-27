@@ -258,3 +258,6 @@ Style/YodaExpression: # new in 1.42
 
 Style/RedundantInitialize: # new in 1.27
   Enabled: true
+
+Style/ComparableClamp: # new in 1.44
+  Enabled: true
