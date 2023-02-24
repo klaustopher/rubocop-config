@@ -9,7 +9,6 @@ on:
 jobs:
   new-cops:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'depfu[bot]' }}
 
     steps:
     - uses: actions/checkout@v3
