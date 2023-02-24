@@ -213,6 +213,7 @@ Style/MapToHash: # new in 1.24
 
 Style/FetchEnvVar: # new in 1.28
   Enabled: true
+
 Style/ObjectThen: # new in 1.28
   Enabled: true
 
@@ -251,8 +252,10 @@ Style/RedundantDoubleSplatHashBraces: # new in 1.41
 
 Style/MapToSet: # new in 1.42
   Enabled: true
+
 Style/MinMaxComparison: # new in 1.42
   Enabled: true
+
 Style/YodaExpression: # new in 1.42
   Enabled: true
 
@@ -260,4 +263,7 @@ Style/RedundantInitialize: # new in 1.27
   Enabled: true
 
 Style/ComparableClamp: # new in 1.44
+  Enabled: true
+
+Style/RedundantHeredocDelimiterQuotes: # new in 1.45
   Enabled: true
