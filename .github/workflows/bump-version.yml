@@ -23,6 +23,9 @@ jobs:
       with:
         bundler-cache: true
 
+    - name: Unset Bundler Deployment
+      run: bundle config unset deployment
+
     - name: Bump version
       run: bundle exec rake bump_minor_version
 
