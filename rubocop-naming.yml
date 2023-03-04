@@ -1,7 +1,6 @@
 ########## NAMING RELATED
 # Renaming `has_something?` to `something?` obfuscates whether it is a "is-a" or
 # a "has-a" relationship.
----
 Naming/PredicateName:
   Enabled: false
 
