@@ -266,3 +266,9 @@ Style/ComparableClamp: # new in 1.44
 
 Style/RedundantHeredocDelimiterQuotes: # new in 1.45
   Enabled: true
+
+Style/DirEmpty: # new in 1.48
+  Enabled: true
+
+Style/FileEmpty: # new in 1.48
+  Enabled: true
