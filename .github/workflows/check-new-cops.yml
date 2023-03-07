@@ -12,12 +12,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
-
-    - name: Install current bundle
-      run: bundle install
+      with:
+        bundler-cache: true
 
     - name: Get warning messages
       run: |
