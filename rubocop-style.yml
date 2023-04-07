@@ -272,3 +272,9 @@ Style/DirEmpty: # new in 1.48
 
 Style/FileEmpty: # new in 1.48
   Enabled: true
+
+Style/DataInheritance: # new in 1.49
+  Enabled: true
+  
+Style/RedundantLineContinuation: # new in 1.49
+  Enabled: true
