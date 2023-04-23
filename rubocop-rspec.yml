@@ -173,3 +173,15 @@ RSpec/SkipBlockInsideExample: # new in 2.19
   
 RSpec/Rails/TravelAround: # new in 2.19
   Enabled: true
+
+RSpec/BeEmpty: # new in 2.20
+  Enabled: true
+  
+RSpec/ContainExactly: # new in 2.19
+  Enabled: true
+  
+RSpec/IndexedLet: # new in 2.20
+  Enabled: true
+  
+RSpec/MatchArray: # new in 2.19
+  Enabled: true
