@@ -13,6 +13,7 @@ inherit_from:
   - rubocop-rails.yml
   - rubocop-rspec.yml
   - rubocop-style.yml
+  - rubocop-factory_bot.yml
 
 AllCops:
   TargetRubyVersion: 3.0
