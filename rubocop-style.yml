@@ -278,3 +278,7 @@ Style/DataInheritance: # new in 1.49
   
 Style/RedundantLineContinuation: # new in 1.49
   Enabled: true
+
+Style/ExactRegexpMatch: # new in 1.51
+  Enabled: true
+
