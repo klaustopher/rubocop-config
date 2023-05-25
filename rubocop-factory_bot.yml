@@ -7,3 +7,14 @@ FactoryBot/ConsistentParenthesesStyle: # new in 2.14
 
 FactoryBot/FactoryNameStyle: # new in 2.16
   Enabled: true
+
+# Enforce associations are defined via `assocation :foo`
+FactoryBot/AssociationStyle: # new in 2.23
+  Enabled: true
+  EnforcedStyle: explicit
+  
+FactoryBot/FactoryAssociationWithStrategy: # new in 2.23
+  Enabled: true
+  
+FactoryBot/RedundantFactoryOption: # new in 2.23
+  Enabled: true
