@@ -282,3 +282,11 @@ Style/RedundantLineContinuation: # new in 1.49
 Style/ExactRegexpMatch: # new in 1.51
   Enabled: true
 
+Style/RedundantArrayConstructor: # new in 1.52
+  Enabled: true
+  
+Style/RedundantFilterChain: # new in 1.52
+  Enabled: true
+  
+Style/RedundantRegexpConstructor: # new in 1.52
+  Enabled: true
