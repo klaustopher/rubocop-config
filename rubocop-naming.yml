@@ -1,14 +1,11 @@
-########## NAMING RELATED
-# Renaming `has_something?` to `something?` obfuscates whether it is a "is-a" or
-# a "has-a" relationship.
 Naming/PredicateName:
-  Enabled: false
+  Enabled: true
 
 Naming/MethodParameterName:
-  Enabled: false
+  Enabled: true
 
 Naming/VariableNumber:
-  Enabled: false
+  Enabled: true
 
 Naming/InclusiveLanguage: # (new in 1.18)
   Enabled: true

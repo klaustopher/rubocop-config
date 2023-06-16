@@ -20,4 +20,4 @@ Metrics/PerceivedComplexity:
   Enabled: false
 
 Metrics/CollectionLiteralLength: # new in 1.47
-  Enabled: true
+  Enabled: false

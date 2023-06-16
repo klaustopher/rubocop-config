@@ -33,10 +33,10 @@ Style/EmptyMethod:
   Enabled: false
 
 Style/MultilineTernaryOperator:
-  Enabled: false
+  Enabled: true
 
 Style/DoubleNegation:
-  Enabled: false
+  Enabled: true
 
 Style/SingleLineBlockParams:
   Enabled: false
@@ -45,7 +45,7 @@ Style/RedundantCondition:
   Enabled: false
 
 Style/TrailingUnderscoreVariable:
-  Enabled: false
+  Enabled: true
 
 Style/MultilineBlockChain:
   Enabled: false
@@ -54,7 +54,7 @@ Style/AsciiComments:
   Enabled: false
 
 Style/RedundantReturn:
-  Enabled: false
+  Enabled: true
 
 Style/HashConversion: # (new in 1.10)
   Enabled: true
@@ -72,7 +72,7 @@ Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
 
 Style/FloatDivision:
-  Enabled: false
+  Enabled: true
 
 Style/CommentedKeyword:
   Enabled: false
@@ -173,16 +173,22 @@ Style/FormatStringToken:
 
 Style/ArgumentsForwarding: # (new in 1.1)
   Enabled: true
+
 Style/CollectionCompact: # (new in 1.2)
   Enabled: true
+
 Style/DocumentDynamicEvalDefinition: # (new in 1.1)
   Enabled: true
+
 Style/NegatedIfElseCondition: # (new in 1.2)
   Enabled: true
+
 Style/NilLambda: # (new in 1.3)
   Enabled: true
+
 Style/RedundantArgument: # (new in 1.4)
   Enabled: false
+
 Style/SwapValues: # (new in 1.1)
   Enabled: true
 
