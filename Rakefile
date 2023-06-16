@@ -16,7 +16,7 @@ task :bump_minor_version do
   File.write(file, <<~FILE)
     module Rubocop
       module Klaustopher
-        VERSION = '#{new_version}'.freeze
+        VERSION = "#{new_version}".freeze
       end
     end
   FILE
