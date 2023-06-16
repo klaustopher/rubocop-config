@@ -1,4 +1,4 @@
-require_relative 'klaustopher/version'
+require_relative "klaustopher/version"
 
 module Rubocop
   module Klaustopher
