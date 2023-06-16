@@ -14,29 +14,29 @@ jobs:
       BUNDLE_DEPLOYMENT: 0
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.head_ref }}
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
 
-    - name: Unset Bundler Deployment
-      run: bundle config unset deployment
+      - name: Unset Bundler Deployment
+        run: bundle config unset deployment
 
-    - name: Bump version
-      run: bundle exec rake bump_minor_version
+      - name: Bump version
+        run: bundle exec rake bump_minor_version
 
-    - name: Update Gemfile.lock
-      run: bundle update
+      - name: Update Gemfile.lock
+        run: bundle update
 
-    - name: Get new version
-      run: echo "NEW_GEM_VERSION=$(bundle exec rake version)" >> $GITHUB_ENV
+      - name: Get new version
+        run: echo "NEW_GEM_VERSION=$(bundle exec rake version)" >> $GITHUB_ENV
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: "Bump version to ${{ env.NEW_GEM_VERSION }}"
-        file_pattern: "lib/rubocop/klaustopher/version.rb Gemfile.lock"
-        tagging_message: "v${{ env.NEW_GEM_VERSION }}"
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Bump version to ${{ env.NEW_GEM_VERSION }}"
+          file_pattern: "lib/rubocop/klaustopher/version.rb Gemfile.lock"
+          tagging_message: "v${{ env.NEW_GEM_VERSION }}"
