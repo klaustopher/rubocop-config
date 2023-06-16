@@ -88,6 +88,7 @@ Style/OpenStructUse: # new in 1.23
 
 Style/SelectByRegexp: # new in 1.22
   Enabled: true
+
 Style/AccessorGrouping:
   Enabled: false
 
@@ -104,13 +105,13 @@ Style/CombinableLoops:
   Enabled: false
 
 Style/ExplicitBlockArgument:
-  Enabled: false
+  Enabled: true
 
 Style/ExponentialNotation:
   Enabled: false
 
 Style/GlobalStdStream:
-  Enabled: false
+  Enabled: true
 
 Style/HashAsLastArrayItem:
   Enabled: true
@@ -122,39 +123,44 @@ Style/IfWithBooleanLiteralBranches: # (new in 1.9)
   Enabled: true
 
 Style/KeywordParametersOrder:
-  Enabled: false
+  Enabled: true
 
 Style/OptionalBooleanParameter:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantAssignment:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantFetchBlock:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantFileExtensionInRequire:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantRegexpCharacterClass:
   Enabled: false
+
 Style/RedundantRegexpEscape:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantSelfAssignment:
-  Enabled: false
+  Enabled: true
 
 Style/SingleArgumentDig:
-  Enabled: false
+  Enabled: true
 
 Style/SlicingWithRange:
   Enabled: false
 
 Style/SoleNestedConditional:
-  Enabled: false
+  Enabled: true
 
 Style/StringConcatenation:
-  Enabled: false
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
 
 Style/HashSyntax:
   EnforcedShorthandSyntax: never
@@ -275,7 +281,7 @@ Style/FileEmpty: # new in 1.48
 
 Style/DataInheritance: # new in 1.49
   Enabled: true
-  
+
 Style/RedundantLineContinuation: # new in 1.49
   Enabled: true
 
@@ -284,9 +290,9 @@ Style/ExactRegexpMatch: # new in 1.51
 
 Style/RedundantArrayConstructor: # new in 1.52
   Enabled: true
-  
+
 Style/RedundantFilterChain: # new in 1.52
   Enabled: true
-  
+
 Style/RedundantRegexpConstructor: # new in 1.52
   Enabled: true
