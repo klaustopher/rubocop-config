@@ -302,3 +302,17 @@ Style/RedundantFilterChain: # new in 1.52
 
 Style/RedundantRegexpConstructor: # new in 1.52
   Enabled: true
+
+Style/RedundantCurrentDirectoryInPath: # new in 1.53
+  Enabled: true
+
+Style/RedundantRegexpArgument: # new in 1.53
+  Enabled: true
+
+# IMHO `nil` is a perfectly fine return value for predicate methods, as this is also present int STDLIB
+Style/ReturnNilInPredicateMethodDefinition: # new in 1.53
+  Enabled: false
+
+Style/YAMLFileRead: # new in 1.53
+  Enabled: true
+
