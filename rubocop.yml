@@ -20,11 +20,12 @@ AllCops:
   UseCache: true
   CacheRootDirectory: tmp/rubocop
   Exclude:
-    - 'bin/**/*'
-    - 'config/**/*'
-    - 'db/migrate/*'
-    - 'db/schema.rb'
-    - 'node_modules/**/*'
-    - 'tmp/**/*'
-    - 'vendor/**/*'
+    - bin/**/*
+    - config/**/*
+    - db/migrate/*
+    - db/schema.rb
+    - node_modules/**/*
+    - tmp/**/*
+    - vendor/**/*
+    - vendor/bundle/**/*
   SuggestExtensions: false
