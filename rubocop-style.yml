@@ -316,3 +316,13 @@ Style/ReturnNilInPredicateMethodDefinition: # new in 1.53
 Style/YAMLFileRead: # new in 1.53
   Enabled: true
 
+Style/NestedFileDirname: # new in 1.26
+  Enabled: true
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma

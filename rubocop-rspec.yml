@@ -13,9 +13,6 @@ RSpec/BeEql:
 RSpec/BeforeAfterAll:
   Enabled: true
 
-Capybara/VisibilityMatcher:
-  Enabled: true
-
 RSpec/ContextMethod:
   Enabled: true
 
@@ -98,9 +95,6 @@ RSpec/SubjectDeclaration: # new in 2.5
 RSpec/NestedGroups:
   Max: 10
 
-Style/NestedFileDirname: # new in 1.26
-  Enabled: true
-
 RSpec/BeEq: # new in 2.9.0
   Enabled: true
 
@@ -116,9 +110,6 @@ RSpec/ChangeByZero: # new in 2.11.0
 RSpec/VerifiedDoubleReference: # new in 2.10.0
   Enabled: true
 
-Capybara/SpecificMatcher: # new in 2.12
-  Enabled: true
-
 RSpec/Rails/HaveHttpStatus: # new in 2.12
   Enabled: true
 
@@ -128,16 +119,7 @@ RSpec/ClassCheck: # new in 2.13
 RSpec/NoExpectationExample: # new in 2.13
   Enabled: true
 
-Capybara/SpecificFinders: # new in 2.13
-  Enabled: true
-
 RSpec/SortMetadata: # new in 2.14
-  Enabled: true
-
-Capybara/NegationMatcher: # new in 2.14
-  Enabled: true
-
-Capybara/SpecificActions: # new in 2.14
   Enabled: true
 
 RSpec/Rails/InferredSpecType: # new in 2.14
@@ -147,9 +129,6 @@ RSpec/DuplicatedMetadata: # new in 2.16
   Enabled: true
 
 RSpec/PendingWithoutReason: # new in 2.16
-  Enabled: true
-
-Capybara/MatchStyle: # new in 2.17
   Enabled: true
 
 RSpec/Rails/MinitestAssertions: # new in 2.17

@@ -1,0 +1,17 @@
+Capybara/SpecificMatcher: # new in 2.12
+  Enabled: true
+
+Capybara/SpecificFinders: # new in 2.13
+  Enabled: true
+
+Capybara/NegationMatcher: # new in 2.14
+  Enabled: true
+
+Capybara/SpecificActions: # new in 2.14
+  Enabled: true
+
+Capybara/MatchStyle: # new in 2.17
+  Enabled: true
+
+Capybara/VisibilityMatcher:
+  Enabled: true

@@ -14,6 +14,7 @@ inherit_from:
   - rubocop-rspec.yml
   - rubocop-style.yml
   - rubocop-factory_bot.yml
+  - rubocop-capybara.yml
 
 AllCops:
   TargetRubyVersion: 3.0
