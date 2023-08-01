@@ -20,7 +20,7 @@ jobs:
 
       - name: Set up Bunlde for sample app
         working-directory: ./sample
-        run: bundle config set --local deployment 'true' && bundle install
+        run: bundle install
 
       - name: Run rubocop on the gem itself
         run: bundle exec rubocop
