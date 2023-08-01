@@ -18,11 +18,9 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Set up Ruby for sample app
-        uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-          working-directory: ./sample
+      - name: Set up Bunlde for sample app
+        working-directory: ./sample
+        run: bundle config set --local deployment 'true' && bundle install
 
       - name: Run rubocop on the gem itself
         run: bundle exec rubocop
