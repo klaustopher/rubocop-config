@@ -32,11 +32,15 @@ jobs:
       - name: Update Gemfile.lock
         run: bundle update
 
+      - name: Update Gemfile.lock on Sample Application
+        working-directory: ./sample
+        run: bundle update
+
       - name: Get new version
         run: echo "NEW_GEM_VERSION=$(bundle exec rake version)" >> $GITHUB_ENV
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Bump version to ${{ env.NEW_GEM_VERSION }}"
-          file_pattern: "lib/rubocop/klaustopher/version.rb Gemfile.lock"
+          file_pattern: "lib/rubocop/klaustopher/version.rb Gemfile.lock sample/Gemfile.lock"
           tagging_message: "v${{ env.NEW_GEM_VERSION }}"
