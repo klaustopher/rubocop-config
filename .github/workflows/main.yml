@@ -18,7 +18,7 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Set up Bunlde for sample app
+      - name: Set up Bundle for sample app
         working-directory: ./sample
         run: bundle install
 
