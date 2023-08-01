@@ -2,7 +2,7 @@ name: bump-version
 
 on:
   workflow_run:
-    workflows: ["Ruby"]
+    workflows: ['Ruby']
     branches: [main]
     types:
       - completed
@@ -26,6 +26,10 @@ jobs:
       - name: Unset Bundler Deployment
         run: bundle config unset deployment
 
+      - name: Unset Bundler Deployment in Sample App
+        working-directory: ./sample
+        run: bundle config unset deployment
+
       - name: Bump version
         run: bundle exec rake bump_minor_version
 
@@ -41,6 +45,6 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Bump version to ${{ env.NEW_GEM_VERSION }}"
-          file_pattern: "lib/rubocop/klaustopher/version.rb Gemfile.lock sample/Gemfile.lock"
-          tagging_message: "v${{ env.NEW_GEM_VERSION }}"
+          commit_message: 'Bump version to ${{ env.NEW_GEM_VERSION }}'
+          file_pattern: 'lib/rubocop/klaustopher/version.rb Gemfile.lock sample/Gemfile.lock'
+          tagging_message: 'v${{ env.NEW_GEM_VERSION }}'
