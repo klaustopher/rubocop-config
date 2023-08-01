@@ -1,0 +1,9 @@
+inherit_gem:
+  rubocop-klaustopher: rubocop.yml
+
+AllCops:
+  Exclude:
+    - bin/*
+    - db/migrate/*.rb
+    - db/schema.rb
+    - vendor/**/*
