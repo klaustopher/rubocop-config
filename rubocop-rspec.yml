@@ -154,3 +154,9 @@ RSpec/IndexedLet: # new in 2.20
 
 RSpec/MatchArray: # new in 2.19
   Enabled: true
+
+RSpec/ReceiveMessages: # new in 2.23
+  Enabled: true
+
+RSpec/Rails/NegationBeValid: # new in 2.23
+  Enabled: true
