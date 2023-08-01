@@ -6,4 +6,7 @@ AllCops:
     - bin/*
     - db/migrate/*.rb
     - db/schema.rb
+    - node_modules/**/*
+    - tmp/**/*
     - vendor/**/*
+    - vendor/bundle/**/*
