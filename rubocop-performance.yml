@@ -51,3 +51,6 @@ Performance/StringInclude:
 
 Performance/Sum:
   Enabled: true
+
+Performance/MapMethodChain: # new in 1.19
+  Enabled: true
