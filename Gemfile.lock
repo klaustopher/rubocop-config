@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-klaustopher (1.4.26)
+    rubocop-klaustopher (1.4.27)
       rubocop (= 1.56.2)
       rubocop-factory_bot (= 2.23.1)
       rubocop-performance (= 1.19.0)
