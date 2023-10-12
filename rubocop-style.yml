@@ -326,3 +326,6 @@ Style/TrailingCommaInHashLiteral:
 Style/TrailingCommaInArrayLiteral:
   Enabled: true
   EnforcedStyleForMultiline: consistent_comma
+
+Style/SingleLineDoEndBlock: # new in 1.57
+  Enabled: true
