@@ -206,3 +206,6 @@ Rails/SelectMap: # new in 2.21
 
 Rails/UnusedRenderContent: # new in 2.21
   Enabled: true
+
+Rails/EnvLocal: # new in 2.22
+  Enabled: true
