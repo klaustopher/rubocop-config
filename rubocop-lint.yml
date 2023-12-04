@@ -169,3 +169,6 @@ Lint/MixedCaseRange: # new in 1.53
   
 Lint/RedundantRegexpQuantifiers: # new in 1.53
   Enabled: true
+
+Lint/LiteralAssignmentInCondition: # new in 1.58
+  Enabled: true
