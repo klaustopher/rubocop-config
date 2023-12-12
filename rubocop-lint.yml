@@ -172,3 +172,6 @@ Lint/RedundantRegexpQuantifiers: # new in 1.53
 
 Lint/LiteralAssignmentInCondition: # new in 1.58
   Enabled: true
+
+Lint/ItWithoutArgumentsInBlock: # new in 1.59
+  Enabled: true
