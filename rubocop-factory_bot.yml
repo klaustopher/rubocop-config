@@ -21,3 +21,6 @@ FactoryBot/RedundantFactoryOption: # new in 2.23
 
 FactoryBot/IdSequence: # new in 2.24
   Enabled: true
+
+FactoryBot/ExcessiveCreateList: # new in 2.25
+  Enabled: true
