@@ -25,3 +25,5 @@ Capybara/RSpec/HaveSelector: # new in 2.19
 Capybara/RSpec/PredicateMatcher: # new in 2.19
   Enabled: true
 
+Capybara/RedundantWithinFind: # new in 2.20
+  Enabled: true
