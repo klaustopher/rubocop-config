@@ -175,3 +175,9 @@ RSpec/SpecFilePathFormat: # new in 2.24
   
 RSpec/SpecFilePathSuffix: # new in 2.24
   Enabled: true
+
+RSpec/RedundantPredicateMatcher: # new in 2.26
+  Enabled: true
+
+RSpec/RemoveConst: # new in 2.26
+  Enabled: true
