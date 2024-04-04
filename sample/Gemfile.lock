@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (1.4.61)
+    rubocop-klaustopher (1.4.62)
       rubocop (= 1.62.1)
       rubocop-factory_bot (= 2.25.1)
       rubocop-performance (= 1.21.0)
@@ -110,7 +110,7 @@ GEM
     irb (1.12.0)
       rdoc
       reline (>= 0.4.2)
-    json (2.7.1)
+    json (2.7.2)
     language_server-protocol (3.17.0.3)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -145,7 +145,7 @@ GEM
       racc
     psych (5.1.2)
       stringio
-    public_suffix (5.0.4)
+    public_suffix (5.0.5)
     puma (5.6.8)
       nio4r (~> 2.0)
     racc (1.7.3)
@@ -181,7 +181,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
-    rake (13.1.0)
+    rake (13.2.0)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
     redis (4.8.1)
