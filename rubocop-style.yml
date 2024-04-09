@@ -335,3 +335,6 @@ Style/SuperWithArgsParentheses: # new in 1.58
 
 Style/ArrayFirstLast: # new in 1.58
   Enabled: true
+
+Style/MapIntoArray: # new in 1.63
+  Enabled: true
