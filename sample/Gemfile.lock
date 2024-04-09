@@ -1,8 +1,8 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (1.4.64)
-      rubocop (= 1.62.1)
+    rubocop-klaustopher (1.4.65)
+      rubocop (= 1.63.0)
       rubocop-factory_bot (= 2.25.1)
       rubocop-performance (= 1.21.0)
       rubocop-rails (= 2.24.1)
@@ -206,7 +206,7 @@ GEM
       rspec-mocks (~> 3.12)
       rspec-support (~> 3.12)
     rspec-support (3.13.1)
-    rubocop (1.62.1)
+    rubocop (1.63.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
