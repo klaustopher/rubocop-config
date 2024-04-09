@@ -107,9 +107,6 @@ RSpec/ChangeByZero: # new in 2.11.0
 RSpec/VerifiedDoubleReference: # new in 2.10.0
   Enabled: true
 
-RSpec/Rails/HaveHttpStatus: # new in 2.12
-  Enabled: true
-
 RSpec/ClassCheck: # new in 2.13
   Enabled: true
 
@@ -182,6 +179,9 @@ RSpec/UndescriptiveLiteralsDescription: # new in 2.29
 # RSpec Rails related stuff will move into its own package. So we'll keep the config in here for now and will extract them later
 
 RSpecRails/AvoidSetupHook: # (new in 2.4)
+  Enabled: true
+
+RSpec/Rails/HaveHttpStatus: # new in 2.12
   Enabled: true
 
 RSpecRails/InferredSpecType: # new in 2.14
