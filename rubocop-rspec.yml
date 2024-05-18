@@ -181,7 +181,7 @@ RSpec/UndescriptiveLiteralsDescription: # new in 2.29
 RSpecRails/AvoidSetupHook: # (new in 2.4)
   Enabled: true
 
-RSpec/Rails/HaveHttpStatus: # new in 2.12
+RSpecRails/HaveHttpStatus: # new in 2.12
   Enabled: true
 
 RSpecRails/InferredSpecType: # new in 2.14
