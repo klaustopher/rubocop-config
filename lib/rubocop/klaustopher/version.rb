@@ -1,5 +1,5 @@
 module Rubocop
   module Klaustopher
-    VERSION = "1.4.73".freeze
+    VERSION = "1.4.74".freeze
   end
 end
