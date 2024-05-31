@@ -34,7 +34,7 @@ GEM
     minitest (5.23.1)
     mutex_m (0.2.0)
     parallel (1.24.0)
-    parser (3.3.1.0)
+    parser (3.3.2.0)
       ast (~> 2.4.1)
       racc
     racc (1.8.0)
@@ -94,4 +94,4 @@ DEPENDENCIES
   semantic
 
 BUNDLED WITH
-   2.4.7
+   2.5.11
