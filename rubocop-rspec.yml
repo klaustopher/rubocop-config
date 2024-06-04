@@ -176,6 +176,9 @@ RSpec/EmptyOutput: # new in 2.29
 RSpec/UndescriptiveLiteralsDescription: # new in 2.29
   Enabled: true
 
+RSpec/ExpectInLet: # new in 2.30
+  Enabled: true
+
 # RSpec Rails related stuff will move into its own package. So we'll keep the config in here for now and will extract them later
 
 RSpecRails/AvoidSetupHook: # (new in 2.4)
