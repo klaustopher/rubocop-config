@@ -2,6 +2,9 @@ require:
   - rubocop-rails
   - rubocop-rspec
   - rubocop-performance
+  - rubocop-capybara
+  - rubocop-rspec_rails
+  - rubocop-factory_bot
 
 inherit_from:
   - rubocop-layout.yml
