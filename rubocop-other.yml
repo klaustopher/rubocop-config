@@ -15,3 +15,6 @@ Gemspec/DeprecatedAttributeAssignment: # new in 1.30
 
 Gemspec/DevelopmentDependencies: # new in 1.44
   Enabled: true
+
+Gemspec/AddRuntimeDependency: # new in 1.65
+  Enabled: true
