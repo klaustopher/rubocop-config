@@ -4,3 +4,6 @@ inherit_gem:
 inherit_mode:
   merge:
     - Exclude
+
+AllCops:
+  TargetRubyVersion: 3.3
