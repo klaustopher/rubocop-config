@@ -212,3 +212,10 @@ Rails/EnvLocal: # new in 2.22
 
 Rails/WhereRange: # new in 2.25
   Enabled: true
+
+# Please no `enum :foo, [:a, :b, :c]`
+Rails/EnumHash:
+  Enabled: true
+
+Rails/EnumSyntax: # new in 2.26
+  Enabled: true
