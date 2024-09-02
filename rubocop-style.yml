@@ -344,3 +344,6 @@ Style/SendWithLiteralMethodName: # new in 1.64
 
 Style/SuperArguments: # new in 1.64
   Enabled: true
+
+Style/RedundantInterpolationUnfreeze: # new in 1.66
+  Enabled: true
