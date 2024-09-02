@@ -175,3 +175,6 @@ Lint/LiteralAssignmentInCondition: # new in 1.58
 
 Lint/ItWithoutArgumentsInBlock: # new in 1.59
   Enabled: true
+
+Lint/UselessNumericOperation: # new in 1.66
+  Enabled: true
