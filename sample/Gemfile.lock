@@ -1,13 +1,13 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (2.0.21)
+    rubocop-klaustopher (2.0.22)
       rubocop (= 1.66.1)
       rubocop-capybara (= 2.21.0)
       rubocop-factory_bot (= 2.26.1)
       rubocop-performance (= 1.21.1)
       rubocop-rails (= 2.26.1)
-      rubocop-rspec (= 3.0.4)
+      rubocop-rspec (= 3.0.5)
       rubocop-rspec_rails (= 2.30.0)
 
 GEM
@@ -231,7 +231,7 @@ GEM
       rack (>= 1.1)
       rubocop (>= 1.52.0, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
-    rubocop-rspec (3.0.4)
+    rubocop-rspec (3.0.5)
       rubocop (~> 1.61)
     rubocop-rspec_rails (2.30.0)
       rubocop (~> 1.61)
