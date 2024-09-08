@@ -1,12 +1,12 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (2.0.20)
+    rubocop-klaustopher (2.0.21)
       rubocop (= 1.66.1)
       rubocop-capybara (= 2.21.0)
       rubocop-factory_bot (= 2.26.1)
       rubocop-performance (= 1.21.1)
-      rubocop-rails (= 2.26.0)
+      rubocop-rails (= 2.26.1)
       rubocop-rspec (= 3.0.4)
       rubocop-rspec_rails (= 2.30.0)
 
@@ -188,11 +188,11 @@ GEM
       psych (>= 4.0.0)
     redis (4.8.1)
     regexp_parser (2.9.2)
-    reline (0.5.9)
+    reline (0.5.10)
       io-console (~> 0.5)
     rspec-core (3.13.1)
       rspec-support (~> 3.13.0)
-    rspec-expectations (3.13.2)
+    rspec-expectations (3.13.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-mocks (3.13.1)
@@ -226,7 +226,7 @@ GEM
     rubocop-performance (1.21.1)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
-    rubocop-rails (2.26.0)
+    rubocop-rails (2.26.1)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.52.0, < 2.0)
