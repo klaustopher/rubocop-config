@@ -178,3 +178,6 @@ Lint/ItWithoutArgumentsInBlock: # new in 1.59
 
 Lint/UselessNumericOperation: # new in 1.66
   Enabled: true
+
+Lint/DuplicateSetElement: # new in 1.67
+  Enabled: true
