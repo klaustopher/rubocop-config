@@ -181,3 +181,7 @@ Lint/UselessNumericOperation: # new in 1.66
 
 Lint/DuplicateSetElement: # new in 1.67
   Enabled: true
+
+Lint/UnescapedBracketInRegexp: # new in 1.68
+  Enabled: true
+  
