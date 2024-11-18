@@ -54,3 +54,6 @@ Performance/Sum:
 
 Performance/MapMethodChain: # new in 1.19
   Enabled: true
+
+Performance/StringBytesize: # new in 1.23
+  Enabled: true
