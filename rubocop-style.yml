@@ -362,3 +362,12 @@ Style/KeywordArgumentsMerging: # new in 1.68
   
 Style/SafeNavigationChainLength: # new in 1.68
   Enabled: true
+
+Style/DigChain: # new in 1.69
+  Enabled: true
+
+Style/FileNull: # new in 1.69
+  Enabled: true
+
+Style/FileTouch: # new in 1.69
+  Enabled: true
