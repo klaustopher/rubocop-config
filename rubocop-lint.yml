@@ -185,3 +185,11 @@ Lint/DuplicateSetElement: # new in 1.67
 Lint/UnescapedBracketInRegexp: # new in 1.68
   Enabled: true
   
+Lint/HashNewWithKeywordArgumentsAsDefault: # new in 1.69
+  Enabled: true
+
+Lint/NumericOperationWithConstantResult: # new in 1.69
+  Enabled: true
+
+Lint/UselessDefined: # new in 1.69
+  Enabled: true
