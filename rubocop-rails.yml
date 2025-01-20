@@ -219,3 +219,9 @@ Rails/EnumHash:
 
 Rails/EnumSyntax: # new in 2.26
   Enabled: true
+
+Rails/MultipleRoutePaths: # new in 2.29
+  Enabled: true
+
+Rails/StrongParametersExpect: # new in 2.29
+  Enabled: true
