@@ -199,3 +199,6 @@ Lint/ConstantReassignment: # new in 1.70
 
 Lint/SharedMutableDefault: # new in 1.70
   Enabled: true
+
+Lint/ArrayLiteralInRegexp: # new in 1.71
+  Enabled: true
