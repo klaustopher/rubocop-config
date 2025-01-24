@@ -199,5 +199,3 @@ RSpecRails/TravelAround: # new in 2.19
 RSpecRails/NegationBeValid: # new in 2.23
   Enabled: true
 
-RSpec/VerifiedDoubleReference: # new in 3.1
-  Enabled: true
