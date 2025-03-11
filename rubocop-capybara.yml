@@ -27,3 +27,9 @@ Capybara/RSpec/PredicateMatcher: # new in 2.19
 
 Capybara/RedundantWithinFind: # new in 2.20
   Enabled: true
+
+Capybara/FindAllFirst: # new in 2.22
+  Enabled: true
+
+Capybara/NegationMatcherAfterVisit: # new in 2.22
+  Enabled: true
