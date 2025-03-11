@@ -8,7 +8,7 @@ PATH
       rubocop-performance (= 1.23.1)
       rubocop-rails (= 2.30.3)
       rubocop-rspec (= 3.5.0)
-      rubocop-rspec_rails (= 2.30.0)
+      rubocop-rspec_rails (= 2.31.0)
 
 GEM
   remote: https://rubygems.org/
@@ -80,9 +80,10 @@ GEM
     rubocop-rspec (3.5.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.72, >= 1.72.1)
-    rubocop-rspec_rails (2.30.0)
-      rubocop (~> 1.61)
-      rubocop-rspec (~> 3, >= 3.0.1)
+    rubocop-rspec_rails (2.31.0)
+      lint_roller (~> 1.1)
+      rubocop (~> 1.72, >= 1.72.1)
+      rubocop-rspec (~> 3.5)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     semantic (1.6.1)
