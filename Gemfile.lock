@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-klaustopher (2.0.51)
+    rubocop-klaustopher (2.0.52)
       rubocop (= 1.73.2)
       rubocop-capybara (= 2.22.0)
       rubocop-factory_bot (= 2.27.0)
@@ -45,7 +45,7 @@ GEM
       ast (~> 2.4.1)
       racc
     racc (1.8.1)
-    rack (3.1.11)
+    rack (3.1.12)
     rainbow (3.1.1)
     rake (13.2.1)
     regexp_parser (2.10.0)
