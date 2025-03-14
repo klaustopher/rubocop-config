@@ -380,3 +380,6 @@ Style/HashSlice: # new in 1.71
 
 Style/RedundantFormat: # new in 1.72
   Enabled: true
+
+Style/ComparableBetween: # new in 1.74
+  Enabled: true
