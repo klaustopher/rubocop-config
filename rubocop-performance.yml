@@ -57,3 +57,6 @@ Performance/MapMethodChain: # new in 1.19
 
 Performance/StringBytesize: # new in 1.23
   Enabled: true
+
+Performance/ZipWithoutBlock: # new in 1.24
+  Enabled: true
