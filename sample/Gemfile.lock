@@ -1,8 +1,8 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (2.0.62)
-      rubocop (= 1.75.3)
+    rubocop-klaustopher (2.0.63)
+      rubocop (= 1.75.4)
       rubocop-capybara (= 2.22.1)
       rubocop-factory_bot (= 2.27.1)
       rubocop-performance (= 1.25.0)
@@ -114,7 +114,7 @@ GEM
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    json (2.10.2)
+    json (2.11.3)
     language_server-protocol (3.17.0.4)
     lint_roller (1.1.0)
     logger (1.7.0)
@@ -131,7 +131,7 @@ GEM
     method_source (1.1.0)
     mini_mime (1.1.5)
     minitest (5.25.5)
-    net-imap (0.5.7)
+    net-imap (0.5.8)
       date
       net-protocol
     net-pop (0.1.2)
@@ -216,7 +216,7 @@ GEM
       rspec-mocks (~> 3.12)
       rspec-support (~> 3.12)
     rspec-support (3.13.2)
-    rubocop (1.75.3)
+    rubocop (1.75.4)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
