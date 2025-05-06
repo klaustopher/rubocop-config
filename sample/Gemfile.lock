@@ -1,8 +1,8 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (2.0.63)
-      rubocop (= 1.75.4)
+    rubocop-klaustopher (2.0.64)
+      rubocop (= 1.75.5)
       rubocop-capybara (= 2.22.1)
       rubocop-factory_bot (= 2.27.1)
       rubocop-performance (= 1.25.0)
@@ -153,10 +153,10 @@ GEM
       prettyprint
     prettyprint (0.2.0)
     prism (1.4.0)
-    psych (5.2.3)
+    psych (5.2.4)
       date
       stringio
-    public_suffix (6.0.1)
+    public_suffix (6.0.2)
     puma (5.6.9)
       nio4r (~> 2.0)
     racc (1.8.1)
@@ -201,10 +201,10 @@ GEM
       io-console (~> 0.5)
     rspec-core (3.13.3)
       rspec-support (~> 3.13.0)
-    rspec-expectations (3.13.3)
+    rspec-expectations (3.13.4)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
-    rspec-mocks (3.13.2)
+    rspec-mocks (3.13.4)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-rails (6.0.4)
@@ -215,8 +215,8 @@ GEM
       rspec-expectations (~> 3.12)
       rspec-mocks (~> 3.12)
       rspec-support (~> 3.12)
-    rspec-support (3.13.2)
-    rubocop (1.75.4)
+    rspec-support (3.13.3)
+    rubocop (1.75.5)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
