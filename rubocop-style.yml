@@ -389,3 +389,9 @@ Style/HashFetchChain: # new in 1.75
 
 Style/ItBlockParameter: # new in 1.75
   Enabled: true
+
+Style/EmptyStringInsideInterpolation: # new in 1.76
+  Enabled: true
+
+Style/RedundantArrayFlatten: # new in 1.76
+  Enabled: true

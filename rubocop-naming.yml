@@ -13,3 +13,6 @@ Naming/InclusiveLanguage: # (new in 1.18)
 
 Naming/BlockForwarding: # new in 1.24
   Enabled: true
+
+Naming/PredicateMethod: # new in 1.76
+  Enabled: true
