@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-klaustopher (2.0.73)
+    rubocop-klaustopher (2.0.74)
       rubocop (= 1.79.0)
       rubocop-capybara (= 2.22.1)
       rubocop-factory_bot (= 2.27.1)
@@ -35,7 +35,7 @@ GEM
     drb (2.2.3)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    json (2.13.1)
+    json (2.13.2)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     logger (1.7.0)
