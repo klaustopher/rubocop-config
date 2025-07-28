@@ -66,3 +66,6 @@ Layout/LineContinuationLeadingSpace: # new in 1.31
 
 Layout/LineContinuationSpacing: # new in 1.31
   Enabled: true
+
+Layout/EmptyLinesAfterModuleInclusion: # new in 1.79
+  Enabled: true
