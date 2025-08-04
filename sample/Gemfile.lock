@@ -1,8 +1,8 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (2.0.74)
-      rubocop (= 1.79.0)
+    rubocop-klaustopher (2.0.75)
+      rubocop (= 1.79.1)
       rubocop-capybara (= 2.22.1)
       rubocop-factory_bot (= 2.27.1)
       rubocop-performance (= 1.25.0)
@@ -106,7 +106,7 @@ GEM
       activesupport (>= 6.1)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    importmap-rails (2.2.0)
+    importmap-rails (2.2.2)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
@@ -198,7 +198,7 @@ GEM
       erb
       psych (>= 4.0.0)
     redis (4.8.1)
-    regexp_parser (2.10.0)
+    regexp_parser (2.11.0)
     reline (0.6.2)
       io-console (~> 0.5)
     rspec-core (3.13.5)
@@ -218,7 +218,7 @@ GEM
       rspec-mocks (~> 3.12)
       rspec-support (~> 3.12)
     rspec-support (3.13.4)
-    rubocop (1.79.0)
+    rubocop (1.79.1)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -228,7 +228,6 @@ GEM
       regexp_parser (>= 2.9.3, < 3.0)
       rubocop-ast (>= 1.46.0, < 2.0)
       ruby-progressbar (~> 1.7)
-      tsort (>= 0.2.0)
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.46.0)
       parser (>= 3.3.7.2)
@@ -272,7 +271,6 @@ GEM
     stringio (3.1.7)
     thor (1.4.0)
     timeout (0.4.3)
-    tsort (0.2.0)
     turbo-rails (2.0.12)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
