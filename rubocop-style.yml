@@ -398,3 +398,6 @@ Style/RedundantArrayFlatten: # new in 1.76
 
 Style/CollectionQuerying: # new in 1.77
   Enabled: true
+
+Style/ArrayIntersectWithSingleElement: # new in 1.81
+  Enabled: true
