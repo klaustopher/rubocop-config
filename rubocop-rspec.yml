@@ -179,6 +179,12 @@ RSpec/UndescriptiveLiteralsDescription: # new in 2.29
 RSpec/ExpectInLet: # new in 2.30
   Enabled: true
 
+RSpec/IncludeExamples: # new in 3.6
+  Enabled: true
+
+RSpec/LeakyLocalVariable: # new in 3.8
+  Enabled: true
+
 # RSpec Rails related stuff will move into its own package. So we'll keep the config in here for now and will extract them later
 
 RSpecRails/AvoidSetupHook: # (new in 2.4)
@@ -199,8 +205,5 @@ RSpecRails/TravelAround: # new in 2.19
 RSpecRails/NegationBeValid: # new in 2.23
   Enabled: true
 
-RSpec/IncludeExamples: # new in 3.6
-  Enabled: true
-
-RSpec/LeakyLocalVariable: # new in 3.8
+RSpecRails/HttpStatusNameConsistency: # new in 2.32
   Enabled: true
