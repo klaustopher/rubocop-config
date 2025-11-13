@@ -201,3 +201,6 @@ RSpecRails/NegationBeValid: # new in 2.23
 
 RSpec/IncludeExamples: # new in 3.6
   Enabled: true
+
+RSpec/LeakyLocalVariable: # new in 3.8
+  Enabled: true
