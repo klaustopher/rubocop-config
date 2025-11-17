@@ -1,14 +1,14 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (2.0.89)
+    rubocop-klaustopher (2.0.90)
       rubocop (= 1.81.7)
       rubocop-capybara (= 2.22.1)
       rubocop-factory_bot (= 2.28.0)
       rubocop-performance (= 1.26.1)
-      rubocop-rails (= 2.33.4)
+      rubocop-rails (= 2.34.0)
       rubocop-rspec (= 3.8.0)
-      rubocop-rspec_rails (= 2.31.0)
+      rubocop-rspec_rails (= 2.32.0)
 
 GEM
   remote: https://rubygems.org/
@@ -256,7 +256,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.47.1, < 2.0)
-    rubocop-rails (2.33.4)
+    rubocop-rails (2.34.0)
       activesupport (>= 4.2.0)
       lint_roller (~> 1.1)
       rack (>= 1.1)
@@ -265,7 +265,7 @@ GEM
     rubocop-rspec (3.8.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.81)
-    rubocop-rspec_rails (2.31.0)
+    rubocop-rspec_rails (2.32.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.72, >= 1.72.1)
       rubocop-rspec (~> 3.5)
