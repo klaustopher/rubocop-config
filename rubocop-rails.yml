@@ -231,3 +231,9 @@ Rails/FindByOrAssignmentMemoization: # new in 2.33
 
 Rails/OrderArguments: # new in 2.33
   Enabled: true
+
+Rails/HttpStatusNameConsistency: # new in 2.34
+  Enabled: true
+
+Rails/RedirectBackOrTo: # new in 2.34
+  Enabled: true
