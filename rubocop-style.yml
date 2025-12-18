@@ -401,3 +401,6 @@ Style/CollectionQuerying: # new in 1.77
 
 Style/ArrayIntersectWithSingleElement: # new in 1.81
   Enabled: true
+
+Style/ModuleMemberExistenceCheck: # new in 1.82
+  Enabled: true
