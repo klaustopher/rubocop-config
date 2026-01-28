@@ -404,3 +404,12 @@ Style/ArrayIntersectWithSingleElement: # new in 1.81
 
 Style/ModuleMemberExistenceCheck: # new in 1.82
   Enabled: true
+
+Style/EmptyClassDefinition: # new in 1.83
+  Enabled: true
+
+Style/NegativeArrayIndex: # new in 1.83
+  Enabled: true
+
+Style/ReverseFind: # new in 1.83
+  Enabled: true
