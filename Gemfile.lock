@@ -7,7 +7,7 @@ PATH
       rubocop-factory_bot (= 2.28.0)
       rubocop-performance (= 1.26.1)
       rubocop-rails (= 2.34.2)
-      rubocop-rspec (= 3.8.0)
+      rubocop-rspec (= 3.9.0)
       rubocop-rspec_rails (= 2.32.0)
 
 GEM
@@ -80,7 +80,7 @@ GEM
       rack (>= 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.44.0, < 2.0)
-    rubocop-rspec (3.8.0)
+    rubocop-rspec (3.9.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.81)
     rubocop-rspec_rails (2.32.0)
