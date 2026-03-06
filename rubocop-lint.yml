@@ -220,3 +220,9 @@ Lint/UselessDefaultValueArgument: # new in 1.76
 
 Lint/UselessOr: # new in 1.76
   Enabled: true
+
+Lint/DataDefineOverride: # new in 1.85
+  Enabled: true
+
+Lint/UnreachablePatternBranch: # new in 1.85
+  Enabled: true
