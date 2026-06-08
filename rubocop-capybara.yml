@@ -1,19 +1,19 @@
-Capybara/SpecificMatcher: # new in 2.12
+Capybara/RSpec/SpecificMatcher: # new in 2.12
   Enabled: true
 
 Capybara/SpecificFinders: # new in 2.13
   Enabled: true
 
-Capybara/NegationMatcher: # new in 2.14
+Capybara/RSpec/NegationMatcher: # new in 2.14
   Enabled: true
 
 Capybara/SpecificActions: # new in 2.14
   Enabled: true
 
-Capybara/MatchStyle: # new in 2.17
+Capybara/RSpec/MatchStyle: # new in 2.17
   Enabled: true
 
-Capybara/VisibilityMatcher:
+Capybara/RSpec/VisibilityMatcher:
   Enabled: true
 
 Capybara/ClickLinkOrButtonStyle: # new in 2.19
@@ -31,5 +31,5 @@ Capybara/RedundantWithinFind: # new in 2.20
 Capybara/FindAllFirst: # new in 2.22
   Enabled: true
 
-Capybara/NegationMatcherAfterVisit: # new in 2.22
+Capybara/RSpec/NegationMatcherAfterVisit: # new in 2.22
   Enabled: true
