@@ -6,6 +6,9 @@ on:
       - "Gemfile.lock"
       - "rubocop-klaustopher.gemspec"
 
+permissions:
+  pull-requests: write
+
 jobs:
   new-cops:
     runs-on: ubuntu-latest
@@ -26,18 +29,20 @@ jobs:
           echo "$(bundle exec rubocop --list-target-files 2>&1 1>/dev/null)" >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
 
-      - uses: mshick/add-pr-comment@v2
+      - name: Fail if there are warnings about new cops
         if: ${{ contains(env.RUBOCOP_WARNINGS, 'The following cops were added to RuboCop, but are not configured') }}
+        run: |
+          echo "::error title=New Cops have been added and need to be configured::${{ env.RUBOCOP_WARNINGS }}"
+          exit 1
+
+      - uses: mshick/add-pr-comment@v3
+        if: always()
         with:
-          message: |
+          message-id: new-cops
+          message-failure: |
             We have some new Cops. Please make a decision if they need to be added.
 
             ```
             ${{ env.RUBOCOP_WARNINGS }}
             ```
-
-      - name: Fail if there are warnings about new cops
-        if: ${{ contains(env.RUBOCOP_WARNINGS, 'The following cops were added to RuboCop, but are not configured') }}
-        run: |
-          echo "::error title=\"New Cops have been added and need to be configured::${{ env.RUBOCOP_WARNINGS }}"
-          exit 1
+          delete-on-status: success
