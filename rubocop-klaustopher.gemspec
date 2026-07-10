@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.files = ["rubocop.yml", "rubocop-klaustopher.gemspec"] + Dir["rubocop-*.yml"]
 
-  spec.add_dependency "rubocop", "= 1.87.0"
+  spec.add_dependency "rubocop", "= 1.88.2"
   spec.add_dependency "rubocop-capybara", "= 3.0.0"
   spec.add_dependency "rubocop-factory_bot", "= 2.28.0"
   spec.add_dependency "rubocop-performance", "= 1.26.1"
