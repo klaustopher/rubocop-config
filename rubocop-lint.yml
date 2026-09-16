@@ -226,3 +226,18 @@ Lint/DataDefineOverride: # new in 1.85
 
 Lint/UnreachablePatternBranch: # new in 1.85
   Enabled: true
+
+Lint/ArgumentMismatch: # new in 1.90
+  Enabled: true
+
+Lint/DeprecatedReference: # new in 1.89
+  Enabled: true
+
+Lint/MisplacedMagicComment: # new in 1.91
+  Enabled: true
+
+Lint/NameTypo: # new in 1.89
+  Enabled: true
+
+Lint/SuperArgumentMismatch: # new in 1.90
+  Enabled: true
