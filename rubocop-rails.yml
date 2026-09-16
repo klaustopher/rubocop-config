@@ -72,7 +72,7 @@ Rails/TimeZone:
 
 Rails/UnknownEnv:
   Enabled: true
-  Environments: development, production, test
+  Environments: [development, production, test]
 
 # HABTM models have their place, so I am fine to have them. I know when to have a special join model
 Rails/HasAndBelongsToMany:
