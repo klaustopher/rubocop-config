@@ -446,3 +446,9 @@ Style/SelectByRange: # new in 1.85
 
 Style/TallyMethod: # new in 1.85
   Enabled: true
+
+Style/DirectiveScope: # new in 1.90
+  Enabled: true
+
+Style/TimeNow: # new in 1.90
+  Enabled: true
