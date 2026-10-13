@@ -207,3 +207,9 @@ RSpecRails/NegationBeValid: # new in 2.23
 
 RSpecRails/HttpStatusNameConsistency: # new in 2.32
   Enabled: true
+
+RSpecRails/FileFixture: # new in 2.33
+  Enabled: true
+
+RSpecRails/ReceivePerformLater: # new in 2.33
+  Enabled: true
