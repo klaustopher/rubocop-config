@@ -145,16 +145,16 @@ RSpec/ReceiveMessages: # new in 2.23
 
 RSpec/EmptyMetadata: # new in 2.24
   Enabled: true
-  
+
 RSpec/Eq: # new in 2.24
   Enabled: true
-  
+
 RSpec/MetadataStyle: # new in 2.24
   Enabled: true
-  
+
 RSpec/SpecFilePathFormat: # new in 2.24
   Enabled: true
-  
+
 RSpec/SpecFilePathSuffix: # new in 2.24
   Enabled: true
 
@@ -169,10 +169,10 @@ RSpec/IsExpectedSpecify: # new in 2.27
 
 RSpec/RepeatedSubjectCall: # new in 2.27
   Enabled: true
-  
+
 RSpec/EmptyOutput: # new in 2.29
   Enabled: true
-  
+
 RSpec/UndescriptiveLiteralsDescription: # new in 2.29
   Enabled: true
 
@@ -185,6 +185,15 @@ RSpec/IncludeExamples: # new in 3.6
 RSpec/LeakyLocalVariable: # new in 3.8
   Enabled: true
 
+RSpec/Output: # new in 3.9
+  Enabled: true
+
+RSpec/DiscardedMatcher: # new in 3.10
+  Enabled: true
+
+RSpec/MatchWithSimpleRegex: # new in 3.10
+  Enabled: true
+
 # RSpec Rails related stuff will move into its own package. So we'll keep the config in here for now and will extract them later
 
 RSpecRails/AvoidSetupHook: # (new in 2.4)
@@ -195,7 +204,7 @@ RSpecRails/HaveHttpStatus: # new in 2.12
 
 RSpecRails/InferredSpecType: # new in 2.14
   Enabled: true
-  
+
 RSpecRails/MinitestAssertions: # new in 2.17
   Enabled: true
 
@@ -208,11 +217,8 @@ RSpecRails/NegationBeValid: # new in 2.23
 RSpecRails/HttpStatusNameConsistency: # new in 2.32
   Enabled: true
 
-RSpec/Output: # new in 3.9
+RSpecRails/FileFixture: # new in 2.33
   Enabled: true
 
-RSpec/DiscardedMatcher: # new in 3.10
-  Enabled: true
-
-RSpec/MatchWithSimpleRegex: # new in 3.10
+RSpecRails/ReceivePerformLater: # new in 2.33
   Enabled: true
