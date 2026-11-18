@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: /
+    versioning-strategy: increase
+    schedule:
+      interval: daily
+
+  - package-ecosystem: bundler
+    directory: /sample
+    schedule:
+      interval: weekly
+    groups:
+      sample:
+        patterns:
+          - "*"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
