@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    rubocop-klaustopher (2.0.112)
+    rubocop-klaustopher (2.1.0)
       rubocop (= 1.92.2)
       rubocop-capybara (= 3.1.0)
       rubocop-factory_bot (= 2.28.0)
@@ -383,7 +383,7 @@ CHECKSUMS
   rubocop-ast (1.52.0) sha256=18d5c58fe4e59c9a9222172dc5ba4c52642d445ce4e696ed86646beea675fe8d
   rubocop-capybara (3.1.0) sha256=1712900b04178272b643f7bffa385f7b1d157c4f83a0ad502ae10690e18f5096
   rubocop-factory_bot (2.28.0) sha256=4b17fc02124444173317e131759d195b0d762844a71a29fe8139c1105d92f0cb
-  rubocop-klaustopher (2.0.112)
+  rubocop-klaustopher (2.1.0)
   rubocop-performance (1.27.0) sha256=eeeb1374d062a368ee1c787b70eb0b0cc4b184cb1f8565f424760946146d61ce
   rubocop-rails (2.38.0) sha256=6e2b7c532efa95e3050371bec20b8f5b025662acead8bc70ee31f0e3e6fa2f06
   rubocop-rspec (3.10.2) sha256=0b3e2ecc592cd10ecbf0095bb58d1e357905276e069643523cc19eb7495f65e2
