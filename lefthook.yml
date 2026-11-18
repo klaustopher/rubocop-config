@@ -1,0 +1,4 @@
+pre-commit:
+  commands:
+    rubocop-sample:
+      run: cd sample && bundle exec rubocop --ignore-parent-exclusion
