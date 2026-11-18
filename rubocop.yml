@@ -21,8 +21,6 @@ inherit_from:
 
 AllCops:
   TargetRubyVersion: 3.2
-  UseCache: true
-  CacheRootDirectory: tmp/rubocop
   Exclude:
     - bin/**/*
     - config/**/*
