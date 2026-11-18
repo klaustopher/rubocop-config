@@ -14,12 +14,12 @@ jobs:
       BUNDLE_DEPLOYMENT: 0
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.7.0
         with:
           ref: ${{ github.head_ref }}
 
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1.341.0
         with:
           bundler-cache: true
 
@@ -43,7 +43,7 @@ jobs:
       - name: Get new version
         run: echo "NEW_GEM_VERSION=$(bundle exec rake version)" >> $GITHUB_ENV
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v4.16.0
         with:
           commit_message: 'Bump version to ${{ env.NEW_GEM_VERSION }}'
           file_pattern: 'lib/rubocop/klaustopher/version.rb Gemfile.lock sample/Gemfile.lock'

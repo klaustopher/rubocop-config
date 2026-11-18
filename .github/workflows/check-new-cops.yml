@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.7.0
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1.341.0
         with:
           bundler-cache: true
 
@@ -35,7 +35,7 @@ jobs:
           echo "::error title=New Cops have been added and need to be configured::${{ env.RUBOCOP_WARNINGS }}"
           exit 1
 
-      - uses: mshick/add-pr-comment@v3
+      - uses: mshick/add-pr-comment@v3.12.0
         if: always()
         with:
           message-id: new-cops
