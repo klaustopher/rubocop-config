@@ -10,6 +10,8 @@ updates:
     directory: /sample
     schedule:
       interval: weekly
+    ignore:
+      - dependency-name: "rubocop*"
     groups:
       sample:
         patterns:
