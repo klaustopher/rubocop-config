@@ -6,7 +6,7 @@ workflows:
     '.github/workflows/bump-version.yml':
         - 'actions/checkout@v3.7.0'
         - 'ruby/setup-ruby@v1.341.0'
-        - 'stefanzweifel/git-auto-commit-action@v4.16.0'
+        - 'stefanzweifel/git-auto-commit-action@v7.2.1'
     '.github/workflows/check-new-cops.yml':
         - 'actions/checkout@v3.7.0'
         - 'mshick/add-pr-comment@v3.12.0'
@@ -30,8 +30,8 @@ dependencies:
         commit: 'sha1-20eb24b0d509e2b9ed9b6d42ddfeb992915e0564'
         owner_id: 210414
         repo_id: 231208785
-    'stefanzweifel/git-auto-commit-action@v4.16.0':
-        ref: 'v4.16.0'
-        commit: 'sha1-3ea6ae190baf489ba007f7c92608f33ce20ef04a'
+    'stefanzweifel/git-auto-commit-action@v7.2.1':
+        ref: 'v7.2.1'
+        commit: 'sha1-d0b01107b5db882071f96de5dd4b54961ea93f4c'
         owner_id: 1080923
         repo_id: 191163758
