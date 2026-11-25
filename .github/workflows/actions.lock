@@ -6,17 +6,17 @@ workflows:
     '.github/workflows/check-new-cops.yml':
         - 'actions/checkout@v7.0.1'
         - 'mshick/add-pr-comment@v3.12.0'
-        - 'ruby/setup-ruby@v1.341.0'
+        - 'ruby/setup-ruby@v1.343.0'
     '.github/workflows/dependabot-changeset.yml':
         - 'actions/checkout@v7.0.1'
         - 'dependabot/fetch-metadata@v3.1.0'
     '.github/workflows/main.yml':
         - 'actions/checkout@v7.0.1'
-        - 'ruby/setup-ruby@v1.341.0'
+        - 'ruby/setup-ruby@v1.343.0'
     '.github/workflows/prepare-release.yml':
         - 'actions/checkout@v7.0.1'
         - 'knope-dev/action@v2.1.2'
-        - 'ruby/setup-ruby@v1.341.0'
+        - 'ruby/setup-ruby@v1.343.0'
     '.github/workflows/release.yml':
         - 'actions/checkout@v7.0.1'
         - 'knope-dev/action@v2.1.2'
@@ -41,8 +41,8 @@ dependencies:
         commit: 'sha1-ec328af66588ab8f77cdeb2c264f14aba45bbf59'
         owner_id: 277401
         repo_id: 223494945
-    'ruby/setup-ruby@v1.341.0':
-        ref: 'v1.341.0'
-        commit: 'sha1-20eb24b0d509e2b9ed9b6d42ddfeb992915e0564'
+    'ruby/setup-ruby@v1.343.0':
+        ref: 'v1.343.0'
+        commit: 'sha1-be3c7df29b3349ec6bcfc6b4792f1cf9f5237d18'
         owner_id: 210414
         repo_id: 231208785
