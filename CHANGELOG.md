@@ -1,4 +1,10 @@
 # Changelog
+## 2.1.1 (2026-11-25)
+
+### Fixes
+
+- Update rubocop requirement from = 1.92.2 to = 1.92.3
+
 ## 2.1.0 (2026-11-18)
 
 ### Features
