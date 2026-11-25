@@ -30,7 +30,7 @@ jobs:
 
       - name: Set up Ruby
         if: steps.changesets.outputs.pending == 'true'
-        uses: ruby/setup-ruby@v1.341.0
+        uses: ruby/setup-ruby@v1.343.0
 
       - uses: knope-dev/action@v2.1.2
         if: steps.changesets.outputs.pending == 'true'
